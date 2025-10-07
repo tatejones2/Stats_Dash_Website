@@ -178,9 +178,89 @@ if data is not None:
     
     st.markdown("---")
     
-    # Data table section
+    # Data table section with conditional formatting
     st.subheader("📋 Team Statistics")
-    st.dataframe(data, width=1200, height=400)
+    
+    # Create a copy of data for styling
+    styled_data = data.copy()
+    
+    # Define stat categories and their ideal values
+    # Higher is better stats (green when high)
+    higher_better = ['K%', 'K', 'Whiff%', 'Plus%', 'TPLUS%', 'FPS%', 'IP', 'K:BB', 'K:F$', 'k/9', 'Ahead%', 'E+A%']
+    
+    # Lower is better stats (green when low)  
+    lower_better = ['ERA', 'WHIP', 'FWHIP', 'BB%', 'BAA', 'BACON', 'ER', 'BB', 'HBP', 'H', 'bb/9', 'h/9']
+    
+    # Percentage stats that should be around certain values
+    percentage_stats = ['S%', 'FB S%', 'OS S%', 'FB CSW', 'OS CSW', 'SL CSW', 'CH/SPL CSW', 'CB CSW', 'CT CSW', 
+                       'FB%', 'Out%', 'Out% RHB', 'Out% LHB', 'ZONE%', 'Swing%', 'FRB%', 'Early%']
+    
+    def get_color_for_value(column, value):
+        """Return color based on stat type and value"""
+        try:
+            numeric_value = float(str(value).replace('%', ''))
+            
+            if column in higher_better:
+                # Higher values are better (green)
+                if numeric_value >= 80:
+                    return 'color: #22c55e; font-weight: bold;'  # Green text
+                elif numeric_value >= 60:
+                    return 'color: #eab308; font-weight: bold;'  # Yellow text
+                else:
+                    return 'color: #ef4444; font-weight: bold;'  # Red text
+                    
+            elif column in lower_better:
+                # Lower values are better (green)
+                if numeric_value <= 2.0:
+                    return 'color: #22c55e; font-weight: bold;'  # Green text
+                elif numeric_value <= 4.0:
+                    return 'color: #eab308; font-weight: bold;'  # Yellow text
+                else:
+                    return 'color: #ef4444; font-weight: bold;'  # Red text
+                    
+            elif column in percentage_stats:
+                # Percentage stats - contextual coloring
+                if 70 <= numeric_value <= 90:
+                    return 'color: #22c55e; font-weight: bold;'  # Green text
+                elif 50 <= numeric_value < 70 or 90 < numeric_value <= 95:
+                    return 'color: #eab308; font-weight: bold;'  # Yellow text
+                else:
+                    return 'color: #ef4444; font-weight: bold;'  # Red text
+                    
+            else:
+                # Default styling for unknown stats
+                return 'color: #60a5fa; font-weight: normal;'  # Light blue text
+                
+        except (ValueError, TypeError):
+            # Non-numeric values get default styling
+            return 'color: #e5e7eb; font-weight: normal;'  # Light gray text
+    
+    # Apply conditional formatting
+    def style_dataframe(df):
+        styled_df = df.style
+        
+        # Apply cell-by-cell styling
+        for col in df.columns:
+            if col not in ['Column_B', 'Column_C', 'Column_D', 'Column_E', 'Column_F', 'Column_G']:  # Skip name columns
+                styled_df = styled_df.map(
+                    lambda x: get_color_for_value(col, x), 
+                    subset=[col]
+                )
+        
+        return styled_df
+    
+    # Display the styled dataframe
+    st.dataframe(style_dataframe(styled_data), width=1200, height=400)
+    
+    # Add legend
+    st.markdown("""
+    **📊 Color Legend:**
+    - <span style="color: #22c55e; font-weight: bold;">🟢 Green Text</span>: Excellent performance
+    - <span style="color: #eab308; font-weight: bold;">🟡 Yellow Text</span>: Average/Good performance  
+    - <span style="color: #ef4444; font-weight: bold;">🔴 Red Text</span>: Needs improvement
+    - <span style="color: #60a5fa;">🔵 Blue Text</span>: Other stats
+    - <span style="color: #e5e7eb;">⚪ Gray Text</span>: Player info/Non-numeric
+    """, unsafe_allow_html=True)
     
     st.markdown("---")
     
