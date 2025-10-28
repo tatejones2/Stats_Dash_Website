@@ -1,0 +1,676 @@
+2025-10-27 19:27:47,461 INFO Loading baseball stats from Google Sheets...
+2025-10-27 19:27:47,463 INFO Fetching data from Google Sheets...
+2025-10-27 19:27:47,476 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 19:27:48,619 INFO DataFrame created with shape: (21, 68)
+2025-10-27 19:27:48,620 INFO Data loaded: (21, 68)
+2025-10-27 19:27:48,630 INFO Showing Team Overview page.
+2025-10-27 19:28:00,193 INFO Loading baseball stats from Google Sheets...
+2025-10-27 19:28:00,196 INFO Fetching data from Google Sheets...
+2025-10-27 19:28:00,201 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 19:28:01,073 INFO DataFrame created with shape: (21, 68)
+2025-10-27 19:28:01,074 INFO Data loaded: (21, 68)
+2025-10-27 19:28:01,082 INFO Showing Team Overview page.
+2025-10-27 19:30:52,471 INFO Loading baseball stats from Google Sheets...
+2025-10-27 19:30:52,473 INFO Fetching data from Google Sheets...
+2025-10-27 19:30:52,484 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 19:30:53,419 INFO DataFrame created with shape: (21, 68)
+2025-10-27 19:30:53,420 INFO Data loaded: (21, 68)
+2025-10-27 19:30:53,427 INFO Showing Team Overview page.
+2025-10-27 19:31:01,467 INFO Loading baseball stats from Google Sheets...
+2025-10-27 19:31:01,470 INFO Fetching data from Google Sheets...
+2025-10-27 19:31:01,478 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 19:31:02,374 INFO DataFrame created with shape: (21, 68)
+2025-10-27 19:31:02,374 INFO Data loaded: (21, 68)
+2025-10-27 19:31:02,381 INFO Showing Team Overview page.
+2025-10-27 19:41:09,875 INFO Loading baseball stats from Google Sheets...
+2025-10-27 19:41:09,878 INFO Fetching data from Google Sheets...
+2025-10-27 19:41:09,887 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 19:41:11,937 INFO DataFrame created with shape: (21, 68)
+2025-10-27 19:41:11,937 INFO Data loaded: (21, 68)
+2025-10-27 19:41:11,950 INFO Showing Team Overview page.
+2025-10-27 19:41:18,711 INFO Loading baseball stats from Google Sheets...
+2025-10-27 19:41:18,712 INFO Fetching data from Google Sheets...
+2025-10-27 19:41:18,723 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 19:41:19,664 INFO DataFrame created with shape: (21, 68)
+2025-10-27 19:41:19,665 INFO Data loaded: (21, 68)
+2025-10-27 19:41:19,679 INFO Showing Team Overview page.
+2025-10-27 19:42:17,859 INFO Loading baseball stats from Google Sheets...
+2025-10-27 19:42:17,861 INFO Fetching data from Google Sheets...
+2025-10-27 19:42:17,867 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 19:42:19,243 INFO DataFrame created with shape: (21, 68)
+2025-10-27 19:42:19,243 INFO Data loaded: (21, 68)
+2025-10-27 19:42:19,256 INFO Showing player page for Staff total:.
+2025-10-27 19:42:19,258 INFO Showing player page for Staff total:. Stats: {'Column_B': 'Staff total:', 'Column_C': 'FB', 'Column_D': 'SL', 'Column_E': 'CH', 'Column_F': 'CB', 'Column_G': 'CT', 'Velo': '87.5', 'S%': '56.8%', 'FB S%': '57.5%', 'OS S%': '55.74%', 'FB CSW': '25.0%', 'OS CSW': '31.1%', 'SL CSW': '33.0%', 'CH/SPL CSW': '29.8%', 'CB CSW': '27.0%', 'CT CSW': '30.8%', 'FB%': '62.4%', 'Out%': '63.3%', 'Out% RHB': '65.0%', 'RHB PA': '470', 'Out% LHB': '52.7%', 'LHB PA': '74', 'WHIP': '1.39', 'Bases/IP': '1.8', 'FWHIP': '1.49', 'FPS%': '52.55%', 'IP': '123.33', 'ER': '52', 'ERA': '3.79', 'PA': '544', 'AB': '441', 'H': '94', 'XBH': '27', 'BB': '78', 'HBP': '12', 'K': '133', 'PC': '2111', 'K%': '24.45%', 'BB%': '14.34%', 'FRB%': '16.5%', 'BAA': '0.213', 'BACON': '0.305', 'ZONE%': '50.7%', 'Swing%': '55.2%', 'Plus%': '52.0%', 'TPLUS%': '47.7%', 'Whiff%': '30.28%', 'max': '89.88', 'K-BB%': '10.11%', 'p/pa': '3.9', 'p/out': '5.7', 'PV1': '87.6', 'PV2': '87.4', 'PV3': '86.3', 'BAAFB': '0.246', 'BAAOS': '0.162', 'Baa dif': '0.084', 'bb/9': '5.7', 'h/9': '6.9', 'k/9': '9.7', 'xbh/h': '28.7%', '2/3': '50.37%', 'Early%': '32.35%', 'Ahead%': '33.27%', 'E+A%': '65.63%', 'BB%_1': '', 'K:BB': '', 'K:F$': ''}
+2025-10-27 19:42:19,291 INFO Calling OpenAI model gpt-4 for player summary. Stats: {'Column_B': 'Staff total:', 'Column_C': 'FB', 'Column_D': 'SL', 'Column_E': 'CH', 'Column_F': 'CB', 'Column_G': 'CT', 'Velo': '87.5', 'S%': '56.8%', 'FB S%': '57.5%', 'OS S%': '55.74%', 'FB CSW': '25.0%', 'OS CSW': '31.1%', 'SL CSW': '33.0%', 'CH/SPL CSW': '29.8%', 'CB CSW': '27.0%', 'CT CSW': '30.8%', 'FB%': '62.4%', 'Out%': '63.3%', 'Out% RHB': '65.0%', 'RHB PA': '470', 'Out% LHB': '52.7%', 'LHB PA': '74', 'WHIP': '1.39', 'Bases/IP': '1.8', 'FWHIP': '1.49', 'FPS%': '52.55%', 'IP': '123.33', 'ER': '52', 'ERA': '3.79', 'PA': '544', 'AB': '441', 'H': '94', 'XBH': '27', 'BB': '78', 'HBP': '12', 'K': '133', 'PC': '2111', 'K%': '24.45%', 'BB%': '14.34%', 'FRB%': '16.5%', 'BAA': '0.213', 'BACON': '0.305', 'ZONE%': '50.7%', 'Swing%': '55.2%', 'Plus%': '52.0%', 'TPLUS%': '47.7%', 'Whiff%': '30.28%', 'max': '89.88', 'K-BB%': '10.11%', 'p/pa': '3.9', 'p/out': '5.7', 'PV1': '87.6', 'PV2': '87.4', 'PV3': '86.3', 'BAAFB': '0.246', 'BAAOS': '0.162', 'Baa dif': '0.084', 'bb/9': '5.7', 'h/9': '6.9', 'k/9': '9.7', 'xbh/h': '28.7%', '2/3': '50.37%', 'Early%': '32.35%', 'Ahead%': '33.27%', 'E+A%': '65.63%', 'BB%_1': '', 'K:BB': '', 'K:F$': ''}
+2025-10-27 19:42:19,292 ERROR OpenAI API error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-10-27 19:43:35,410 INFO Loading baseball stats from Google Sheets...
+2025-10-27 19:43:35,412 INFO Fetching data from Google Sheets...
+2025-10-27 19:43:35,422 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 19:43:36,540 INFO DataFrame created with shape: (21, 68)
+2025-10-27 19:43:36,540 INFO Data loaded: (21, 68)
+2025-10-27 19:43:36,553 INFO Showing player page for Staff total:.
+2025-10-27 19:43:36,555 INFO Showing player page for Staff total:. Stats: {'Column_B': 'Staff total:', 'Column_C': 'FB', 'Column_D': 'SL', 'Column_E': 'CH', 'Column_F': 'CB', 'Column_G': 'CT', 'Velo': '87.5', 'S%': '56.8%', 'FB S%': '57.5%', 'OS S%': '55.74%', 'FB CSW': '25.0%', 'OS CSW': '31.1%', 'SL CSW': '33.0%', 'CH/SPL CSW': '29.8%', 'CB CSW': '27.0%', 'CT CSW': '30.8%', 'FB%': '62.4%', 'Out%': '63.3%', 'Out% RHB': '65.0%', 'RHB PA': '470', 'Out% LHB': '52.7%', 'LHB PA': '74', 'WHIP': '1.39', 'Bases/IP': '1.8', 'FWHIP': '1.49', 'FPS%': '52.55%', 'IP': '123.33', 'ER': '52', 'ERA': '3.79', 'PA': '544', 'AB': '441', 'H': '94', 'XBH': '27', 'BB': '78', 'HBP': '12', 'K': '133', 'PC': '2111', 'K%': '24.45%', 'BB%': '14.34%', 'FRB%': '16.5%', 'BAA': '0.213', 'BACON': '0.305', 'ZONE%': '50.7%', 'Swing%': '55.2%', 'Plus%': '52.0%', 'TPLUS%': '47.7%', 'Whiff%': '30.28%', 'max': '89.88', 'K-BB%': '10.11%', 'p/pa': '3.9', 'p/out': '5.7', 'PV1': '87.6', 'PV2': '87.4', 'PV3': '86.3', 'BAAFB': '0.246', 'BAAOS': '0.162', 'Baa dif': '0.084', 'bb/9': '5.7', 'h/9': '6.9', 'k/9': '9.7', 'xbh/h': '28.7%', '2/3': '50.37%', 'Early%': '32.35%', 'Ahead%': '33.27%', 'E+A%': '65.63%', 'BB%_1': '', 'K:BB': '', 'K:F$': ''}
+2025-10-27 19:43:36,585 INFO Calling OpenAI model gpt-4 for player summary. Stats: {'Column_B': 'Staff total:', 'Column_C': 'FB', 'Column_D': 'SL', 'Column_E': 'CH', 'Column_F': 'CB', 'Column_G': 'CT', 'Velo': '87.5', 'S%': '56.8%', 'FB S%': '57.5%', 'OS S%': '55.74%', 'FB CSW': '25.0%', 'OS CSW': '31.1%', 'SL CSW': '33.0%', 'CH/SPL CSW': '29.8%', 'CB CSW': '27.0%', 'CT CSW': '30.8%', 'FB%': '62.4%', 'Out%': '63.3%', 'Out% RHB': '65.0%', 'RHB PA': '470', 'Out% LHB': '52.7%', 'LHB PA': '74', 'WHIP': '1.39', 'Bases/IP': '1.8', 'FWHIP': '1.49', 'FPS%': '52.55%', 'IP': '123.33', 'ER': '52', 'ERA': '3.79', 'PA': '544', 'AB': '441', 'H': '94', 'XBH': '27', 'BB': '78', 'HBP': '12', 'K': '133', 'PC': '2111', 'K%': '24.45%', 'BB%': '14.34%', 'FRB%': '16.5%', 'BAA': '0.213', 'BACON': '0.305', 'ZONE%': '50.7%', 'Swing%': '55.2%', 'Plus%': '52.0%', 'TPLUS%': '47.7%', 'Whiff%': '30.28%', 'max': '89.88', 'K-BB%': '10.11%', 'p/pa': '3.9', 'p/out': '5.7', 'PV1': '87.6', 'PV2': '87.4', 'PV3': '86.3', 'BAAFB': '0.246', 'BAAOS': '0.162', 'Baa dif': '0.084', 'bb/9': '5.7', 'h/9': '6.9', 'k/9': '9.7', 'xbh/h': '28.7%', '2/3': '50.37%', 'Early%': '32.35%', 'Ahead%': '33.27%', 'E+A%': '65.63%', 'BB%_1': '', 'K:BB': '', 'K:F$': ''}
+2025-10-27 19:43:36,586 ERROR OpenAI API error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-10-27 19:43:41,316 INFO Loading baseball stats from Google Sheets...
+2025-10-27 19:43:41,319 INFO Fetching data from Google Sheets...
+2025-10-27 19:43:41,325 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 19:43:42,260 INFO DataFrame created with shape: (21, 68)
+2025-10-27 19:43:42,260 INFO Data loaded: (21, 68)
+2025-10-27 19:43:42,274 INFO Showing player page for Sybirski.
+2025-10-27 19:43:42,275 INFO Showing player page for Sybirski. Stats: {'Column_B': 'Sybirski', 'Column_C': 'FB', 'Column_D': 'SL', 'Column_E': 'CH', 'Column_F': 'CB', 'Column_G': 'CT', 'Velo': '84.8', 'S%': '63.0%', 'FB S%': '65.9%', 'OS S%': '56.8%', 'FB CSW': '22.0%', 'OS CSW': '25.0%', 'SL CSW': '0.0%', 'CH/SPL CSW': '25.0%', 'CB CSW': '25.0%', 'CT CSW': '0.0%', 'FB%': '67.4%', 'Out%': '67.5%', 'Out% RHB': '74.3%', 'RHB PA': '35', 'Out% LHB': '20.0%', 'LHB PA': '5', 'WHIP': '1.2', 'Bases/IP': '1.4', 'FWHIP': '1.2', 'FPS%': '65.0%', 'IP': '9.3', 'ER': '3', 'ERA': '2.89', 'PA': '40', 'AB': '34', 'H': '7', 'XBH': '2', 'BB': '4', 'HBP': '0', 'K': '8', 'PC': '135', 'K%': '20.0%', 'BB%': '10.0%', 'FRB%': '10.0%', 'BAA': '0.206', 'BACON': '0.269', 'ZONE%': '58.5%', 'Swing%': '46.7%', 'Plus%': '56.3%', 'TPLUS%': '51.11%', 'Whiff%': '14.29%', 'max': '87.0', 'K-BB%': '10.0%', 'p/pa': '3.4', 'p/out': '4.8', 'PV1': '84.8', 'PV2': '84.8', 'PV3': '0.0', 'BAAFB': '0.167', 'BAAOS': '0.300', 'Baa dif': '-0.133', 'bb/9': '3.9', 'h/9': '6.8', 'k/9': '7.7', 'xbh/h': '28.6%', '2/3': '', 'Early%': '47.50%', 'Ahead%': '30.00%', 'E+A%': '77.5%', 'BB%_1': '10.0%', 'K:BB': '2.00', 'K:F$': '2.00'}
+2025-10-27 19:43:42,298 INFO Calling OpenAI model gpt-4 for player summary. Stats: {'Column_B': 'Sybirski', 'Column_C': 'FB', 'Column_D': 'SL', 'Column_E': 'CH', 'Column_F': 'CB', 'Column_G': 'CT', 'Velo': '84.8', 'S%': '63.0%', 'FB S%': '65.9%', 'OS S%': '56.8%', 'FB CSW': '22.0%', 'OS CSW': '25.0%', 'SL CSW': '0.0%', 'CH/SPL CSW': '25.0%', 'CB CSW': '25.0%', 'CT CSW': '0.0%', 'FB%': '67.4%', 'Out%': '67.5%', 'Out% RHB': '74.3%', 'RHB PA': '35', 'Out% LHB': '20.0%', 'LHB PA': '5', 'WHIP': '1.2', 'Bases/IP': '1.4', 'FWHIP': '1.2', 'FPS%': '65.0%', 'IP': '9.3', 'ER': '3', 'ERA': '2.89', 'PA': '40', 'AB': '34', 'H': '7', 'XBH': '2', 'BB': '4', 'HBP': '0', 'K': '8', 'PC': '135', 'K%': '20.0%', 'BB%': '10.0%', 'FRB%': '10.0%', 'BAA': '0.206', 'BACON': '0.269', 'ZONE%': '58.5%', 'Swing%': '46.7%', 'Plus%': '56.3%', 'TPLUS%': '51.11%', 'Whiff%': '14.29%', 'max': '87.0', 'K-BB%': '10.0%', 'p/pa': '3.4', 'p/out': '4.8', 'PV1': '84.8', 'PV2': '84.8', 'PV3': '0.0', 'BAAFB': '0.167', 'BAAOS': '0.300', 'Baa dif': '-0.133', 'bb/9': '3.9', 'h/9': '6.8', 'k/9': '7.7', 'xbh/h': '28.6%', '2/3': '', 'Early%': '47.50%', 'Ahead%': '30.00%', 'E+A%': '77.5%', 'BB%_1': '10.0%', 'K:BB': '2.00', 'K:F$': '2.00'}
+2025-10-27 19:43:42,300 ERROR OpenAI API error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-10-27 19:43:47,137 INFO Loading baseball stats from Google Sheets...
+2025-10-27 19:43:47,139 INFO Fetching data from Google Sheets...
+2025-10-27 19:43:47,148 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 19:43:48,133 INFO DataFrame created with shape: (21, 68)
+2025-10-27 19:43:48,133 INFO Data loaded: (21, 68)
+2025-10-27 19:43:48,165 INFO Showing player page for Scamardella.
+2025-10-27 19:43:48,167 INFO Showing player page for Scamardella. Stats: {'Column_B': 'Scamardella', 'Column_C': 'FB', 'Column_D': 'SL', 'Column_E': 'CH', 'Column_F': 'CB', 'Column_G': 'CT', 'Velo': '87.0', 'S%': '63.1%', 'FB S%': '67.0%', 'OS S%': '60.0%', 'FB CSW': '34.1%', 'OS CSW': '32.7%', 'SL CSW': '28.6%', 'CH/SPL CSW': '14.3%', 'CB CSW': '0.0%', 'CT CSW': '42.5%', 'FB%': '44.4%', 'Out%': '68.1%', 'Out% RHB': '69.0%', 'RHB PA': '42', 'Out% LHB': '60.0%', 'LHB PA': '5', 'WHIP': '1.0', 'Bases/IP': '1.4', 'FWHIP': '1.2', 'FPS%': '61.7%', 'IP': '11.0', 'ER': '1', 'ERA': '0.82', 'PA': '47', 'AB': '38', 'H': '6', 'XBH': '2', 'BB': '5', 'HBP': '2', 'K': '16', 'PC': '198', 'K%': '34.0%', 'BB%': '10.6%', 'FRB%': '14.9%', 'BAA': '0.158', 'BACON': '0.273', 'ZONE%': '55.6%', 'Swing%': '47.0%', 'Plus%': '59.1%', 'TPLUS%': '53.03%', 'Whiff%': '36.56%', 'max': '89.0', 'K-BB%': '23.4%', 'p/pa': '4.2', 'p/out': '6.0', 'PV1': '87.2', 'PV2': '86.7', 'PV3': '0.0', 'BAAFB': '0.167', 'BAAOS': '0.150', 'Baa dif': '0.017', 'bb/9': '4.1', 'h/9': '4.9', 'k/9': '13.1', 'xbh/h': '33.3%', '2/3': '', 'Early%': '23.40%', 'Ahead%': '46.81%', 'E+A%': '70.2%', 'BB%_1': '10.6%', 'K:BB': '3.20', 'K:F$': '2.29'}
+2025-10-27 19:43:48,186 INFO Calling OpenAI model gpt-4 for player summary. Stats: {'Column_B': 'Scamardella', 'Column_C': 'FB', 'Column_D': 'SL', 'Column_E': 'CH', 'Column_F': 'CB', 'Column_G': 'CT', 'Velo': '87.0', 'S%': '63.1%', 'FB S%': '67.0%', 'OS S%': '60.0%', 'FB CSW': '34.1%', 'OS CSW': '32.7%', 'SL CSW': '28.6%', 'CH/SPL CSW': '14.3%', 'CB CSW': '0.0%', 'CT CSW': '42.5%', 'FB%': '44.4%', 'Out%': '68.1%', 'Out% RHB': '69.0%', 'RHB PA': '42', 'Out% LHB': '60.0%', 'LHB PA': '5', 'WHIP': '1.0', 'Bases/IP': '1.4', 'FWHIP': '1.2', 'FPS%': '61.7%', 'IP': '11.0', 'ER': '1', 'ERA': '0.82', 'PA': '47', 'AB': '38', 'H': '6', 'XBH': '2', 'BB': '5', 'HBP': '2', 'K': '16', 'PC': '198', 'K%': '34.0%', 'BB%': '10.6%', 'FRB%': '14.9%', 'BAA': '0.158', 'BACON': '0.273', 'ZONE%': '55.6%', 'Swing%': '47.0%', 'Plus%': '59.1%', 'TPLUS%': '53.03%', 'Whiff%': '36.56%', 'max': '89.0', 'K-BB%': '23.4%', 'p/pa': '4.2', 'p/out': '6.0', 'PV1': '87.2', 'PV2': '86.7', 'PV3': '0.0', 'BAAFB': '0.167', 'BAAOS': '0.150', 'Baa dif': '0.017', 'bb/9': '4.1', 'h/9': '4.9', 'k/9': '13.1', 'xbh/h': '33.3%', '2/3': '', 'Early%': '23.40%', 'Ahead%': '46.81%', 'E+A%': '70.2%', 'BB%_1': '10.6%', 'K:BB': '3.20', 'K:F$': '2.29'}
+2025-10-27 19:43:48,188 ERROR OpenAI API error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-10-27 19:44:35,874 INFO Loading baseball stats from Google Sheets...
+2025-10-27 19:44:35,875 INFO Fetching data from Google Sheets...
+2025-10-27 19:44:35,884 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 19:44:36,929 INFO DataFrame created with shape: (21, 68)
+2025-10-27 19:44:36,930 INFO Data loaded: (21, 68)
+2025-10-27 19:44:36,943 INFO Showing Team Overview page.
+2025-10-27 19:48:21,308 INFO Loading baseball stats from Google Sheets...
+2025-10-27 19:48:21,311 INFO Fetching data from Google Sheets...
+2025-10-27 19:48:21,317 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 19:48:22,462 INFO DataFrame created with shape: (21, 68)
+2025-10-27 19:48:22,463 INFO Data loaded: (21, 68)
+2025-10-27 19:48:22,478 INFO Showing Team Overview page.
+2025-10-27 19:48:29,384 INFO Loading baseball stats from Google Sheets...
+2025-10-27 19:48:29,387 INFO Fetching data from Google Sheets...
+2025-10-27 19:48:29,393 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 19:48:30,210 INFO Loading baseball stats from Google Sheets...
+2025-10-27 19:48:30,212 INFO Fetching data from Google Sheets...
+2025-10-27 19:48:30,222 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 19:48:30,339 INFO DataFrame created with shape: (21, 68)
+2025-10-27 19:48:30,360 INFO Data loaded: (21, 68)
+2025-10-27 19:48:31,231 INFO DataFrame created with shape: (21, 68)
+2025-10-27 19:48:31,232 INFO Data loaded: (21, 68)
+2025-10-27 19:53:13,139 INFO Loading baseball stats from Google Sheets...
+2025-10-27 19:53:13,140 INFO Fetching data from Google Sheets...
+2025-10-27 19:53:13,150 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 19:53:14,339 INFO DataFrame created with shape: (21, 68)
+2025-10-27 19:53:14,340 INFO Data loaded: (21, 68)
+2025-10-27 19:53:14,354 INFO Showing Team Overview page.
+2025-10-27 19:53:27,174 INFO Loading baseball stats from Google Sheets...
+2025-10-27 19:53:27,175 INFO Fetching data from Google Sheets...
+2025-10-27 19:53:27,181 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 19:53:26,100 INFO Loading baseball stats from Google Sheets...
+2025-10-27 19:53:26,103 INFO Fetching data from Google Sheets...
+2025-10-27 19:53:26,112 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 19:53:26,605 INFO DataFrame created with shape: (21, 68)
+2025-10-27 19:53:26,605 INFO Data loaded: (21, 68)
+2025-10-27 19:53:27,237 INFO DataFrame created with shape: (21, 68)
+2025-10-27 19:53:27,238 INFO Data loaded: (21, 68)
+2025-10-27 19:53:27,253 INFO Showing Team Overview page.
+2025-10-27 19:53:31,100 INFO Loading baseball stats from Google Sheets...
+2025-10-27 19:53:31,104 INFO Fetching data from Google Sheets...
+2025-10-27 19:53:31,110 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 19:53:32,147 INFO DataFrame created with shape: (21, 68)
+2025-10-27 19:53:32,147 INFO Data loaded: (21, 68)
+2025-10-27 19:53:32,165 INFO Showing player page for Jones.
+2025-10-27 19:53:32,167 INFO Showing player page for Jones. Stats: {'Column_B': 'Jones', 'Column_C': 'FB', 'Column_D': 'SL', 'Column_E': 'CH', 'Column_F': 'CB', 'Column_G': 'CT', 'Velo': '83.8', 'S%': '58.6%', 'FB S%': '60.0%', 'OS S%': '57.1%', 'FB CSW': '26.0%', 'OS CSW': '28.6%', 'SL CSW': '34.4%', 'CH/SPL CSW': '18.9%', 'CB CSW': '0.0%', 'CT CSW': '0.0%', 'FB%': '50.5%', 'Out%': '64.3%', 'Out% RHB': '66.7%', 'RHB PA': '51', 'Out% LHB': '40.0%', 'LHB PA': '5', 'WHIP': '1.5', 'Bases/IP': '1.7', 'FWHIP': '1.5', 'FPS%': '55.4%', 'IP': '13.3', 'ER': '5', 'ERA': '3.38', 'PA': '56', 'AB': '49', 'H': '13', 'XBH': '3', 'BB': '7', 'HBP': '0', 'K': '10', 'PC': '198', 'K%': '17.9%', 'BB%': '12.5%', 'FRB%': '12.5%', 'BAA': '0.265', 'BACON': '0.333', 'ZONE%': '50.5%', 'Swing%': '46.0%', 'Plus%': '52.5%', 'TPLUS%': '48.99%', 'Whiff%': '31.87%', 'max': '86.0', 'K-BB%': '5.4%', 'p/pa': '3.5', 'p/out': '5.0', 'PV1': '84.0', 'PV2': '83.7', 'PV3': '0.0', 'BAAFB': '0.280', 'BAAOS': '0.250', 'Baa dif': '0.030', 'bb/9': '4.7', 'h/9': '8.8', 'k/9': '6.8', 'xbh/h': '23.1%', '2/3': '', 'Early%': '42.86%', 'Ahead%': '30.36%', 'E+A%': '73.2%', 'BB%_1': '12.5%', 'K:BB': '1.43', 'K:F$': '1.43'}
+2025-10-27 19:53:32,193 INFO Calling OpenAI model gpt-4 for player summary. Stats: {'Column_B': 'Jones', 'Column_C': 'FB', 'Column_D': 'SL', 'Column_E': 'CH', 'Column_F': 'CB', 'Column_G': 'CT', 'Velo': '83.8', 'S%': '58.6%', 'FB S%': '60.0%', 'OS S%': '57.1%', 'FB CSW': '26.0%', 'OS CSW': '28.6%', 'SL CSW': '34.4%', 'CH/SPL CSW': '18.9%', 'CB CSW': '0.0%', 'CT CSW': '0.0%', 'FB%': '50.5%', 'Out%': '64.3%', 'Out% RHB': '66.7%', 'RHB PA': '51', 'Out% LHB': '40.0%', 'LHB PA': '5', 'WHIP': '1.5', 'Bases/IP': '1.7', 'FWHIP': '1.5', 'FPS%': '55.4%', 'IP': '13.3', 'ER': '5', 'ERA': '3.38', 'PA': '56', 'AB': '49', 'H': '13', 'XBH': '3', 'BB': '7', 'HBP': '0', 'K': '10', 'PC': '198', 'K%': '17.9%', 'BB%': '12.5%', 'FRB%': '12.5%', 'BAA': '0.265', 'BACON': '0.333', 'ZONE%': '50.5%', 'Swing%': '46.0%', 'Plus%': '52.5%', 'TPLUS%': '48.99%', 'Whiff%': '31.87%', 'max': '86.0', 'K-BB%': '5.4%', 'p/pa': '3.5', 'p/out': '5.0', 'PV1': '84.0', 'PV2': '83.7', 'PV3': '0.0', 'BAAFB': '0.280', 'BAAOS': '0.250', 'Baa dif': '0.030', 'bb/9': '4.7', 'h/9': '8.8', 'k/9': '6.8', 'xbh/h': '23.1%', '2/3': '', 'Early%': '42.86%', 'Ahead%': '30.36%', 'E+A%': '73.2%', 'BB%_1': '12.5%', 'K:BB': '1.43', 'K:F$': '1.43'}
+2025-10-27 19:53:32,194 ERROR OpenAI API error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-10-27 19:54:23,740 INFO Loading baseball stats from Google Sheets...
+2025-10-27 19:54:23,745 INFO Fetching data from Google Sheets...
+2025-10-27 19:54:23,751 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 19:54:24,695 INFO DataFrame created with shape: (21, 68)
+2025-10-27 19:54:24,695 INFO Data loaded: (21, 68)
+2025-10-27 19:54:24,712 INFO Showing player page for Jones.
+2025-10-27 19:54:24,713 INFO Showing player page for Jones. Stats: {'Column_B': 'Jones', 'Column_C': 'FB', 'Column_D': 'SL', 'Column_E': 'CH', 'Column_F': 'CB', 'Column_G': 'CT', 'Velo': '83.8', 'S%': '58.6%', 'FB S%': '60.0%', 'OS S%': '57.1%', 'FB CSW': '26.0%', 'OS CSW': '28.6%', 'SL CSW': '34.4%', 'CH/SPL CSW': '18.9%', 'CB CSW': '0.0%', 'CT CSW': '0.0%', 'FB%': '50.5%', 'Out%': '64.3%', 'Out% RHB': '66.7%', 'RHB PA': '51', 'Out% LHB': '40.0%', 'LHB PA': '5', 'WHIP': '1.5', 'Bases/IP': '1.7', 'FWHIP': '1.5', 'FPS%': '55.4%', 'IP': '13.3', 'ER': '5', 'ERA': '3.38', 'PA': '56', 'AB': '49', 'H': '13', 'XBH': '3', 'BB': '7', 'HBP': '0', 'K': '10', 'PC': '198', 'K%': '17.9%', 'BB%': '12.5%', 'FRB%': '12.5%', 'BAA': '0.265', 'BACON': '0.333', 'ZONE%': '50.5%', 'Swing%': '46.0%', 'Plus%': '52.5%', 'TPLUS%': '48.99%', 'Whiff%': '31.87%', 'max': '86.0', 'K-BB%': '5.4%', 'p/pa': '3.5', 'p/out': '5.0', 'PV1': '84.0', 'PV2': '83.7', 'PV3': '0.0', 'BAAFB': '0.280', 'BAAOS': '0.250', 'Baa dif': '0.030', 'bb/9': '4.7', 'h/9': '8.8', 'k/9': '6.8', 'xbh/h': '23.1%', '2/3': '', 'Early%': '42.86%', 'Ahead%': '30.36%', 'E+A%': '73.2%', 'BB%_1': '12.5%', 'K:BB': '1.43', 'K:F$': '1.43'}
+2025-10-27 19:54:24,738 INFO Calling OpenAI model gpt-4 for player summary. Stats: {'Column_B': 'Jones', 'Column_C': 'FB', 'Column_D': 'SL', 'Column_E': 'CH', 'Column_F': 'CB', 'Column_G': 'CT', 'Velo': '83.8', 'S%': '58.6%', 'FB S%': '60.0%', 'OS S%': '57.1%', 'FB CSW': '26.0%', 'OS CSW': '28.6%', 'SL CSW': '34.4%', 'CH/SPL CSW': '18.9%', 'CB CSW': '0.0%', 'CT CSW': '0.0%', 'FB%': '50.5%', 'Out%': '64.3%', 'Out% RHB': '66.7%', 'RHB PA': '51', 'Out% LHB': '40.0%', 'LHB PA': '5', 'WHIP': '1.5', 'Bases/IP': '1.7', 'FWHIP': '1.5', 'FPS%': '55.4%', 'IP': '13.3', 'ER': '5', 'ERA': '3.38', 'PA': '56', 'AB': '49', 'H': '13', 'XBH': '3', 'BB': '7', 'HBP': '0', 'K': '10', 'PC': '198', 'K%': '17.9%', 'BB%': '12.5%', 'FRB%': '12.5%', 'BAA': '0.265', 'BACON': '0.333', 'ZONE%': '50.5%', 'Swing%': '46.0%', 'Plus%': '52.5%', 'TPLUS%': '48.99%', 'Whiff%': '31.87%', 'max': '86.0', 'K-BB%': '5.4%', 'p/pa': '3.5', 'p/out': '5.0', 'PV1': '84.0', 'PV2': '83.7', 'PV3': '0.0', 'BAAFB': '0.280', 'BAAOS': '0.250', 'Baa dif': '0.030', 'bb/9': '4.7', 'h/9': '8.8', 'k/9': '6.8', 'xbh/h': '23.1%', '2/3': '', 'Early%': '42.86%', 'Ahead%': '30.36%', 'E+A%': '73.2%', 'BB%_1': '12.5%', 'K:BB': '1.43', 'K:F$': '1.43'}
+2025-10-27 19:54:24,739 ERROR OpenAI API error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-10-27 19:54:31,243 INFO Loading baseball stats from Google Sheets...
+2025-10-27 19:54:31,245 INFO Fetching data from Google Sheets...
+2025-10-27 19:54:31,253 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 19:54:31,952 INFO Loading baseball stats from Google Sheets...
+2025-10-27 19:54:31,954 INFO Fetching data from Google Sheets...
+2025-10-27 19:54:31,964 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 19:54:32,422 INFO DataFrame created with shape: (21, 68)
+2025-10-27 19:54:32,423 INFO Data loaded: (21, 68)
+2025-10-27 19:54:33,113 INFO DataFrame created with shape: (21, 68)
+2025-10-27 19:54:33,114 INFO Data loaded: (21, 68)
+2025-10-27 19:54:33,130 INFO Showing player page for Jones.
+2025-10-27 19:54:33,132 INFO Showing player page for Jones. Stats: {'Column_B': 'Jones', 'Column_C': 'FB', 'Column_D': 'SL', 'Column_E': 'CH', 'Column_F': 'CB', 'Column_G': 'CT', 'Velo': '83.8', 'S%': '58.6%', 'FB S%': '60.0%', 'OS S%': '57.1%', 'FB CSW': '26.0%', 'OS CSW': '28.6%', 'SL CSW': '34.4%', 'CH/SPL CSW': '18.9%', 'CB CSW': '0.0%', 'CT CSW': '0.0%', 'FB%': '50.5%', 'Out%': '64.3%', 'Out% RHB': '66.7%', 'RHB PA': '51', 'Out% LHB': '40.0%', 'LHB PA': '5', 'WHIP': '1.5', 'Bases/IP': '1.7', 'FWHIP': '1.5', 'FPS%': '55.4%', 'IP': '13.3', 'ER': '5', 'ERA': '3.38', 'PA': '56', 'AB': '49', 'H': '13', 'XBH': '3', 'BB': '7', 'HBP': '0', 'K': '10', 'PC': '198', 'K%': '17.9%', 'BB%': '12.5%', 'FRB%': '12.5%', 'BAA': '0.265', 'BACON': '0.333', 'ZONE%': '50.5%', 'Swing%': '46.0%', 'Plus%': '52.5%', 'TPLUS%': '48.99%', 'Whiff%': '31.87%', 'max': '86.0', 'K-BB%': '5.4%', 'p/pa': '3.5', 'p/out': '5.0', 'PV1': '84.0', 'PV2': '83.7', 'PV3': '0.0', 'BAAFB': '0.280', 'BAAOS': '0.250', 'Baa dif': '0.030', 'bb/9': '4.7', 'h/9': '8.8', 'k/9': '6.8', 'xbh/h': '23.1%', '2/3': '', 'Early%': '42.86%', 'Ahead%': '30.36%', 'E+A%': '73.2%', 'BB%_1': '12.5%', 'K:BB': '1.43', 'K:F$': '1.43'}
+2025-10-27 19:54:33,156 INFO Calling OpenAI model gpt-4 for player summary. Stats: {'Column_B': 'Jones', 'Column_C': 'FB', 'Column_D': 'SL', 'Column_E': 'CH', 'Column_F': 'CB', 'Column_G': 'CT', 'Velo': '83.8', 'S%': '58.6%', 'FB S%': '60.0%', 'OS S%': '57.1%', 'FB CSW': '26.0%', 'OS CSW': '28.6%', 'SL CSW': '34.4%', 'CH/SPL CSW': '18.9%', 'CB CSW': '0.0%', 'CT CSW': '0.0%', 'FB%': '50.5%', 'Out%': '64.3%', 'Out% RHB': '66.7%', 'RHB PA': '51', 'Out% LHB': '40.0%', 'LHB PA': '5', 'WHIP': '1.5', 'Bases/IP': '1.7', 'FWHIP': '1.5', 'FPS%': '55.4%', 'IP': '13.3', 'ER': '5', 'ERA': '3.38', 'PA': '56', 'AB': '49', 'H': '13', 'XBH': '3', 'BB': '7', 'HBP': '0', 'K': '10', 'PC': '198', 'K%': '17.9%', 'BB%': '12.5%', 'FRB%': '12.5%', 'BAA': '0.265', 'BACON': '0.333', 'ZONE%': '50.5%', 'Swing%': '46.0%', 'Plus%': '52.5%', 'TPLUS%': '48.99%', 'Whiff%': '31.87%', 'max': '86.0', 'K-BB%': '5.4%', 'p/pa': '3.5', 'p/out': '5.0', 'PV1': '84.0', 'PV2': '83.7', 'PV3': '0.0', 'BAAFB': '0.280', 'BAAOS': '0.250', 'Baa dif': '0.030', 'bb/9': '4.7', 'h/9': '8.8', 'k/9': '6.8', 'xbh/h': '23.1%', '2/3': '', 'Early%': '42.86%', 'Ahead%': '30.36%', 'E+A%': '73.2%', 'BB%_1': '12.5%', 'K:BB': '1.43', 'K:F$': '1.43'}
+2025-10-27 19:54:33,157 ERROR OpenAI API error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-10-27 19:54:39,127 INFO Loading baseball stats from Google Sheets...
+2025-10-27 19:54:39,128 INFO Fetching data from Google Sheets...
+2025-10-27 19:54:39,135 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 19:54:40,119 INFO DataFrame created with shape: (21, 68)
+2025-10-27 19:54:40,119 INFO Data loaded: (21, 68)
+2025-10-27 19:54:40,134 INFO Showing player page for Jones.
+2025-10-27 19:54:40,135 INFO Showing player page for Jones. Stats: {'Column_B': 'Jones', 'Column_C': 'FB', 'Column_D': 'SL', 'Column_E': 'CH', 'Column_F': 'CB', 'Column_G': 'CT', 'Velo': '83.8', 'S%': '58.6%', 'FB S%': '60.0%', 'OS S%': '57.1%', 'FB CSW': '26.0%', 'OS CSW': '28.6%', 'SL CSW': '34.4%', 'CH/SPL CSW': '18.9%', 'CB CSW': '0.0%', 'CT CSW': '0.0%', 'FB%': '50.5%', 'Out%': '64.3%', 'Out% RHB': '66.7%', 'RHB PA': '51', 'Out% LHB': '40.0%', 'LHB PA': '5', 'WHIP': '1.5', 'Bases/IP': '1.7', 'FWHIP': '1.5', 'FPS%': '55.4%', 'IP': '13.3', 'ER': '5', 'ERA': '3.38', 'PA': '56', 'AB': '49', 'H': '13', 'XBH': '3', 'BB': '7', 'HBP': '0', 'K': '10', 'PC': '198', 'K%': '17.9%', 'BB%': '12.5%', 'FRB%': '12.5%', 'BAA': '0.265', 'BACON': '0.333', 'ZONE%': '50.5%', 'Swing%': '46.0%', 'Plus%': '52.5%', 'TPLUS%': '48.99%', 'Whiff%': '31.87%', 'max': '86.0', 'K-BB%': '5.4%', 'p/pa': '3.5', 'p/out': '5.0', 'PV1': '84.0', 'PV2': '83.7', 'PV3': '0.0', 'BAAFB': '0.280', 'BAAOS': '0.250', 'Baa dif': '0.030', 'bb/9': '4.7', 'h/9': '8.8', 'k/9': '6.8', 'xbh/h': '23.1%', '2/3': '', 'Early%': '42.86%', 'Ahead%': '30.36%', 'E+A%': '73.2%', 'BB%_1': '12.5%', 'K:BB': '1.43', 'K:F$': '1.43'}
+2025-10-27 19:54:40,159 INFO Calling OpenAI model gpt-4 for player summary. Stats: {'Column_B': 'Jones', 'Column_C': 'FB', 'Column_D': 'SL', 'Column_E': 'CH', 'Column_F': 'CB', 'Column_G': 'CT', 'Velo': '83.8', 'S%': '58.6%', 'FB S%': '60.0%', 'OS S%': '57.1%', 'FB CSW': '26.0%', 'OS CSW': '28.6%', 'SL CSW': '34.4%', 'CH/SPL CSW': '18.9%', 'CB CSW': '0.0%', 'CT CSW': '0.0%', 'FB%': '50.5%', 'Out%': '64.3%', 'Out% RHB': '66.7%', 'RHB PA': '51', 'Out% LHB': '40.0%', 'LHB PA': '5', 'WHIP': '1.5', 'Bases/IP': '1.7', 'FWHIP': '1.5', 'FPS%': '55.4%', 'IP': '13.3', 'ER': '5', 'ERA': '3.38', 'PA': '56', 'AB': '49', 'H': '13', 'XBH': '3', 'BB': '7', 'HBP': '0', 'K': '10', 'PC': '198', 'K%': '17.9%', 'BB%': '12.5%', 'FRB%': '12.5%', 'BAA': '0.265', 'BACON': '0.333', 'ZONE%': '50.5%', 'Swing%': '46.0%', 'Plus%': '52.5%', 'TPLUS%': '48.99%', 'Whiff%': '31.87%', 'max': '86.0', 'K-BB%': '5.4%', 'p/pa': '3.5', 'p/out': '5.0', 'PV1': '84.0', 'PV2': '83.7', 'PV3': '0.0', 'BAAFB': '0.280', 'BAAOS': '0.250', 'Baa dif': '0.030', 'bb/9': '4.7', 'h/9': '8.8', 'k/9': '6.8', 'xbh/h': '23.1%', '2/3': '', 'Early%': '42.86%', 'Ahead%': '30.36%', 'E+A%': '73.2%', 'BB%_1': '12.5%', 'K:BB': '1.43', 'K:F$': '1.43'}
+2025-10-27 19:54:40,159 ERROR OpenAI API error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-10-27 19:58:00,125 INFO Loading baseball stats from Google Sheets...
+2025-10-27 19:58:00,130 INFO Fetching data from Google Sheets...
+2025-10-27 19:58:00,138 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 19:58:01,162 INFO DataFrame created with shape: (21, 68)
+2025-10-27 19:58:01,163 INFO Data loaded: (21, 68)
+2025-10-27 19:58:01,202 INFO Showing player page for Jones.
+2025-10-27 19:58:01,203 INFO Showing player page for Jones. Stats: {'Column_B': 'Jones', 'Column_C': 'FB', 'Column_D': 'SL', 'Column_E': 'CH', 'Column_F': 'CB', 'Column_G': 'CT', 'Velo': '83.8', 'S%': '58.6%', 'FB S%': '60.0%', 'OS S%': '57.1%', 'FB CSW': '26.0%', 'OS CSW': '28.6%', 'SL CSW': '34.4%', 'CH/SPL CSW': '18.9%', 'CB CSW': '0.0%', 'CT CSW': '0.0%', 'FB%': '50.5%', 'Out%': '64.3%', 'Out% RHB': '66.7%', 'RHB PA': '51', 'Out% LHB': '40.0%', 'LHB PA': '5', 'WHIP': '1.5', 'Bases/IP': '1.7', 'FWHIP': '1.5', 'FPS%': '55.4%', 'IP': '13.3', 'ER': '5', 'ERA': '3.38', 'PA': '56', 'AB': '49', 'H': '13', 'XBH': '3', 'BB': '7', 'HBP': '0', 'K': '10', 'PC': '198', 'K%': '17.9%', 'BB%': '12.5%', 'FRB%': '12.5%', 'BAA': '0.265', 'BACON': '0.333', 'ZONE%': '50.5%', 'Swing%': '46.0%', 'Plus%': '52.5%', 'TPLUS%': '48.99%', 'Whiff%': '31.87%', 'max': '86.0', 'K-BB%': '5.4%', 'p/pa': '3.5', 'p/out': '5.0', 'PV1': '84.0', 'PV2': '83.7', 'PV3': '0.0', 'BAAFB': '0.280', 'BAAOS': '0.250', 'Baa dif': '0.030', 'bb/9': '4.7', 'h/9': '8.8', 'k/9': '6.8', 'xbh/h': '23.1%', '2/3': '', 'Early%': '42.86%', 'Ahead%': '30.36%', 'E+A%': '73.2%', 'BB%_1': '12.5%', 'K:BB': '1.43', 'K:F$': '1.43'}
+2025-10-27 19:58:01,227 INFO Calling OpenAI model gpt-4 for player summary. Stats: {'Column_B': 'Jones', 'Column_C': 'FB', 'Column_D': 'SL', 'Column_E': 'CH', 'Column_F': 'CB', 'Column_G': 'CT', 'Velo': '83.8', 'S%': '58.6%', 'FB S%': '60.0%', 'OS S%': '57.1%', 'FB CSW': '26.0%', 'OS CSW': '28.6%', 'SL CSW': '34.4%', 'CH/SPL CSW': '18.9%', 'CB CSW': '0.0%', 'CT CSW': '0.0%', 'FB%': '50.5%', 'Out%': '64.3%', 'Out% RHB': '66.7%', 'RHB PA': '51', 'Out% LHB': '40.0%', 'LHB PA': '5', 'WHIP': '1.5', 'Bases/IP': '1.7', 'FWHIP': '1.5', 'FPS%': '55.4%', 'IP': '13.3', 'ER': '5', 'ERA': '3.38', 'PA': '56', 'AB': '49', 'H': '13', 'XBH': '3', 'BB': '7', 'HBP': '0', 'K': '10', 'PC': '198', 'K%': '17.9%', 'BB%': '12.5%', 'FRB%': '12.5%', 'BAA': '0.265', 'BACON': '0.333', 'ZONE%': '50.5%', 'Swing%': '46.0%', 'Plus%': '52.5%', 'TPLUS%': '48.99%', 'Whiff%': '31.87%', 'max': '86.0', 'K-BB%': '5.4%', 'p/pa': '3.5', 'p/out': '5.0', 'PV1': '84.0', 'PV2': '83.7', 'PV3': '0.0', 'BAAFB': '0.280', 'BAAOS': '0.250', 'Baa dif': '0.030', 'bb/9': '4.7', 'h/9': '8.8', 'k/9': '6.8', 'xbh/h': '23.1%', '2/3': '', 'Early%': '42.86%', 'Ahead%': '30.36%', 'E+A%': '73.2%', 'BB%_1': '12.5%', 'K:BB': '1.43', 'K:F$': '1.43'}
+2025-10-27 19:58:01,228 ERROR OpenAI API error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-10-27 20:02:08,256 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:02:08,257 INFO Fetching data from Google Sheets...
+2025-10-27 20:02:08,269 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:02:09,381 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:02:09,382 INFO Data loaded: (21, 68)
+2025-10-27 20:02:09,397 INFO Showing player page for Jones.
+2025-10-27 20:02:09,399 INFO Showing player page for Jones. Stats: {'Column_B': 'Jones', 'Column_C': 'FB', 'Column_D': 'SL', 'Column_E': 'CH', 'Column_F': 'CB', 'Column_G': 'CT', 'Velo': '83.8', 'S%': '58.6%', 'FB S%': '60.0%', 'OS S%': '57.1%', 'FB CSW': '26.0%', 'OS CSW': '28.6%', 'SL CSW': '34.4%', 'CH/SPL CSW': '18.9%', 'CB CSW': '0.0%', 'CT CSW': '0.0%', 'FB%': '50.5%', 'Out%': '64.3%', 'Out% RHB': '66.7%', 'RHB PA': '51', 'Out% LHB': '40.0%', 'LHB PA': '5', 'WHIP': '1.5', 'Bases/IP': '1.7', 'FWHIP': '1.5', 'FPS%': '55.4%', 'IP': '13.3', 'ER': '5', 'ERA': '3.38', 'PA': '56', 'AB': '49', 'H': '13', 'XBH': '3', 'BB': '7', 'HBP': '0', 'K': '10', 'PC': '198', 'K%': '17.9%', 'BB%': '12.5%', 'FRB%': '12.5%', 'BAA': '0.265', 'BACON': '0.333', 'ZONE%': '50.5%', 'Swing%': '46.0%', 'Plus%': '52.5%', 'TPLUS%': '48.99%', 'Whiff%': '31.87%', 'max': '86.0', 'K-BB%': '5.4%', 'p/pa': '3.5', 'p/out': '5.0', 'PV1': '84.0', 'PV2': '83.7', 'PV3': '0.0', 'BAAFB': '0.280', 'BAAOS': '0.250', 'Baa dif': '0.030', 'bb/9': '4.7', 'h/9': '8.8', 'k/9': '6.8', 'xbh/h': '23.1%', '2/3': '', 'Early%': '42.86%', 'Ahead%': '30.36%', 'E+A%': '73.2%', 'BB%_1': '12.5%', 'K:BB': '1.43', 'K:F$': '1.43'}
+2025-10-27 20:02:09,442 INFO Calling OpenAI model gpt-4 for player summary. Stats: {'Column_B': 'Jones', 'Column_C': 'FB', 'Column_D': 'SL', 'Column_E': 'CH', 'Column_F': 'CB', 'Column_G': 'CT', 'Velo': '83.8', 'S%': '58.6%', 'FB S%': '60.0%', 'OS S%': '57.1%', 'FB CSW': '26.0%', 'OS CSW': '28.6%', 'SL CSW': '34.4%', 'CH/SPL CSW': '18.9%', 'CB CSW': '0.0%', 'CT CSW': '0.0%', 'FB%': '50.5%', 'Out%': '64.3%', 'Out% RHB': '66.7%', 'RHB PA': '51', 'Out% LHB': '40.0%', 'LHB PA': '5', 'WHIP': '1.5', 'Bases/IP': '1.7', 'FWHIP': '1.5', 'FPS%': '55.4%', 'IP': '13.3', 'ER': '5', 'ERA': '3.38', 'PA': '56', 'AB': '49', 'H': '13', 'XBH': '3', 'BB': '7', 'HBP': '0', 'K': '10', 'PC': '198', 'K%': '17.9%', 'BB%': '12.5%', 'FRB%': '12.5%', 'BAA': '0.265', 'BACON': '0.333', 'ZONE%': '50.5%', 'Swing%': '46.0%', 'Plus%': '52.5%', 'TPLUS%': '48.99%', 'Whiff%': '31.87%', 'max': '86.0', 'K-BB%': '5.4%', 'p/pa': '3.5', 'p/out': '5.0', 'PV1': '84.0', 'PV2': '83.7', 'PV3': '0.0', 'BAAFB': '0.280', 'BAAOS': '0.250', 'Baa dif': '0.030', 'bb/9': '4.7', 'h/9': '8.8', 'k/9': '6.8', 'xbh/h': '23.1%', '2/3': '', 'Early%': '42.86%', 'Ahead%': '30.36%', 'E+A%': '73.2%', 'BB%_1': '12.5%', 'K:BB': '1.43', 'K:F$': '1.43'}
+2025-10-27 20:02:28,861 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 20:02:28,893 INFO AI summary generated: The player, Jones, has been performing moderately well so far. Jones pitches predominantly with a Fastball (FB) at an average velocity of 83.8 mph, which accounts for 50.5% of his pitches. His Fastball has a decent 60.0% strike percentage (S%) and a 26.0% strike percentage when combined with swinging strikes (CSW). However, his Slider (SL) proves to be more effective with a considerably higher 34.4% CSW. Improvement can be seen in his Changeup/Splitter (CH/SPL) and Curveball (CB) since neither are notably effective, with CSW at just 18.9% and 0.0% respectively.
+
+Defensively, he's succeeded in gaining outs in 64.3% of attempts, showing a strength against right-handed batters (Out% RHB is 66.7%) but struggling slightly against left-handed batters (Out% LHB is 40.0%).
+
+His ERA (Earned Run Average) stands at 3.38, showing he has managed to limit scoring. However, he allows 1.5 walks and hits per inning pitched (WHIP), and yields 1.7 bases per inning pitched (Bases/IP) -- both figures are slightly higher than ideal.
+
+In terms of discipline on the mound, Jones recorded 10 strikeouts (K) and allowed 7 walks (BB) with his 198 pitches, constituting a strikeout to walk ratio (K:BB) of 1.43, suggesting room for improvement in control. His overall strikeout percentage is 17.8%, and his walk percentage is 12.5%.
+
+The ball is in play in a quarter of his at-bats (BACON is 0.333), and his batting average against (BAA) is 0.265. These demonstrate that he has had some success in limiting hits, but there is still room for improvement.
+
+In conclusion, Jones appears to have a solid foundation, effectively using his Fastball and Slider. However, he needs to improve his control to reduce walks and hits allowed per inning pitched. Further development in his secondary pitches, particularly his Changeup/Splitter and Curveball, could also prove key to elevating his game.
+2025-10-27 20:03:18,702 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:03:18,703 INFO Fetching data from Google Sheets...
+2025-10-27 20:03:18,712 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:03:19,687 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:03:19,688 INFO Data loaded: (21, 68)
+2025-10-27 20:03:19,725 INFO Showing player page for Jones.
+2025-10-27 20:03:19,727 INFO Showing player page for Jones. Stats: {'Column_B': 'Jones', 'Column_C': 'FB', 'Column_D': 'SL', 'Column_E': 'CH', 'Column_F': 'CB', 'Column_G': 'CT', 'Velo': '83.8', 'S%': '58.6%', 'FB S%': '60.0%', 'OS S%': '57.1%', 'FB CSW': '26.0%', 'OS CSW': '28.6%', 'SL CSW': '34.4%', 'CH/SPL CSW': '18.9%', 'CB CSW': '0.0%', 'CT CSW': '0.0%', 'FB%': '50.5%', 'Out%': '64.3%', 'Out% RHB': '66.7%', 'RHB PA': '51', 'Out% LHB': '40.0%', 'LHB PA': '5', 'WHIP': '1.5', 'Bases/IP': '1.7', 'FWHIP': '1.5', 'FPS%': '55.4%', 'IP': '13.3', 'ER': '5', 'ERA': '3.38', 'PA': '56', 'AB': '49', 'H': '13', 'XBH': '3', 'BB': '7', 'HBP': '0', 'K': '10', 'PC': '198', 'K%': '17.9%', 'BB%': '12.5%', 'FRB%': '12.5%', 'BAA': '0.265', 'BACON': '0.333', 'ZONE%': '50.5%', 'Swing%': '46.0%', 'Plus%': '52.5%', 'TPLUS%': '48.99%', 'Whiff%': '31.87%', 'max': '86.0', 'K-BB%': '5.4%', 'p/pa': '3.5', 'p/out': '5.0', 'PV1': '84.0', 'PV2': '83.7', 'PV3': '0.0', 'BAAFB': '0.280', 'BAAOS': '0.250', 'Baa dif': '0.030', 'bb/9': '4.7', 'h/9': '8.8', 'k/9': '6.8', 'xbh/h': '23.1%', '2/3': '', 'Early%': '42.86%', 'Ahead%': '30.36%', 'E+A%': '73.2%', 'BB%_1': '12.5%', 'K:BB': '1.43', 'K:F$': '1.43'}
+2025-10-27 20:03:19,751 INFO Calling OpenAI model gpt-4 for player summary. Stats: {'Column_B': 'Jones', 'Column_C': 'FB', 'Column_D': 'SL', 'Column_E': 'CH', 'Column_F': 'CB', 'Column_G': 'CT', 'Velo': '83.8', 'S%': '58.6%', 'FB S%': '60.0%', 'OS S%': '57.1%', 'FB CSW': '26.0%', 'OS CSW': '28.6%', 'SL CSW': '34.4%', 'CH/SPL CSW': '18.9%', 'CB CSW': '0.0%', 'CT CSW': '0.0%', 'FB%': '50.5%', 'Out%': '64.3%', 'Out% RHB': '66.7%', 'RHB PA': '51', 'Out% LHB': '40.0%', 'LHB PA': '5', 'WHIP': '1.5', 'Bases/IP': '1.7', 'FWHIP': '1.5', 'FPS%': '55.4%', 'IP': '13.3', 'ER': '5', 'ERA': '3.38', 'PA': '56', 'AB': '49', 'H': '13', 'XBH': '3', 'BB': '7', 'HBP': '0', 'K': '10', 'PC': '198', 'K%': '17.9%', 'BB%': '12.5%', 'FRB%': '12.5%', 'BAA': '0.265', 'BACON': '0.333', 'ZONE%': '50.5%', 'Swing%': '46.0%', 'Plus%': '52.5%', 'TPLUS%': '48.99%', 'Whiff%': '31.87%', 'max': '86.0', 'K-BB%': '5.4%', 'p/pa': '3.5', 'p/out': '5.0', 'PV1': '84.0', 'PV2': '83.7', 'PV3': '0.0', 'BAAFB': '0.280', 'BAAOS': '0.250', 'Baa dif': '0.030', 'bb/9': '4.7', 'h/9': '8.8', 'k/9': '6.8', 'xbh/h': '23.1%', '2/3': '', 'Early%': '42.86%', 'Ahead%': '30.36%', 'E+A%': '73.2%', 'BB%_1': '12.5%', 'K:BB': '1.43', 'K:F$': '1.43'}
+2025-10-27 20:03:32,210 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 20:03:32,216 INFO AI summary generated: Player Jones excels in achieving outs, indicated by his high out percentage of 64.3%. He shows further prowess against right-handed batters, boasting a lovely out percentage of 66.7% over 51 plate appearances. However, facing left-handed batters seems to be a weak spot for him, obtaining outs merely 40% of the time in 5 plate appearances. This is one area where Jones might want to concentrate on improving.
+
+His fastball strategy is quite successful, shown by a 60% strike percentage with fastballs, but would benefit from mixing up his arsenal a bit more. Specifically, his curveball and cutter could use work, both showing a 0% CSW (called strikes plus whiffs).
+
+Jones' primary issue appears to be control, as evidenced by his high bases per inning pitched ratio (1.7), a WHIP of 1.5, and a walk rate of 12.5%. Further accentuating this problem, his K-BB% is only 5.4%, and his K:BB is slightly low at 1.43 initially indicating he gives up more walks compared to strikeouts.
+
+In conclusion, while Jones can get outs and has a solid ERA of 3.38, his control might be hindering his performance. Therefore, he should work on reducing the number of walks and increasing his strikeout ratio. There's room for enhancement in his pitch types, specifically in improving the effectiveness of his curveball and cutter. These improvements could transform him from a good player to a standout one in his team.
+
+2025-10-27 20:06:19,461 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:06:19,462 INFO Fetching data from Google Sheets...
+2025-10-27 20:06:19,471 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:06:20,421 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:06:20,422 INFO Data loaded: (21, 68)
+2025-10-27 20:06:20,435 INFO Showing Team Overview page.
+2025-10-27 20:06:25,942 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:06:25,943 INFO Fetching data from Google Sheets...
+2025-10-27 20:06:25,950 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:06:26,833 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:06:26,833 INFO Fetching data from Google Sheets...
+2025-10-27 20:06:26,844 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:06:26,938 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:06:26,963 INFO Data loaded: (21, 68)
+2025-10-27 20:06:27,985 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:06:27,985 INFO Data loaded: (21, 68)
+2025-10-27 20:06:28,001 INFO Showing Team Overview page.
+2025-10-27 20:06:34,914 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:06:34,915 INFO Fetching data from Google Sheets...
+2025-10-27 20:06:34,921 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:06:35,877 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:06:35,878 INFO Data loaded: (21, 68)
+2025-10-27 20:06:35,898 INFO Showing Team Overview page.
+2025-10-27 20:07:04,229 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:07:04,231 INFO Fetching data from Google Sheets...
+2025-10-27 20:07:04,239 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:07:04,961 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:07:04,961 INFO Fetching data from Google Sheets...
+2025-10-27 20:07:04,973 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:07:05,290 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:07:05,482 INFO Data loaded: (21, 68)
+2025-10-27 20:07:04,343 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:07:04,344 INFO Data loaded: (21, 68)
+2025-10-27 20:07:04,359 INFO Showing Team Overview page.
+2025-10-27 20:07:10,273 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:07:10,274 INFO Fetching data from Google Sheets...
+2025-10-27 20:07:10,283 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:07:11,779 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:07:11,779 INFO Data loaded: (21, 68)
+2025-10-27 20:07:11,793 INFO Showing Team Overview page.
+2025-10-27 20:09:37,365 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:09:37,366 INFO Fetching data from Google Sheets...
+2025-10-27 20:09:37,380 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:09:38,529 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:09:38,530 INFO Data loaded: (21, 68)
+2025-10-27 20:09:38,543 INFO Showing Team Overview page.
+2025-10-27 20:09:45,844 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:09:45,846 INFO Fetching data from Google Sheets...
+2025-10-27 20:09:45,854 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:09:46,799 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:09:46,802 INFO Fetching data from Google Sheets...
+2025-10-27 20:09:46,805 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:09:46,806 INFO Data loaded: (21, 68)
+2025-10-27 20:09:46,950 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:09:47,880 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:09:47,881 INFO Data loaded: (21, 68)
+2025-10-27 20:09:47,895 INFO Showing Team Overview page.
+2025-10-27 20:09:53,354 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:09:53,354 INFO Fetching data from Google Sheets...
+2025-10-27 20:09:53,364 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:09:54,219 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:09:54,220 INFO Data loaded: (21, 68)
+2025-10-27 20:11:24,077 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:11:24,078 INFO Fetching data from Google Sheets...
+2025-10-27 20:11:24,091 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:11:25,056 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:11:25,057 INFO Data loaded: (21, 68)
+2025-10-27 20:11:25,072 INFO Showing Team Overview page.
+2025-10-27 20:11:28,037 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:11:28,039 INFO Fetching data from Google Sheets...
+2025-10-27 20:11:28,048 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:11:28,847 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:11:28,849 INFO Fetching data from Google Sheets...
+2025-10-27 20:11:28,858 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:11:29,035 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:11:29,042 INFO Data loaded: (21, 68)
+2025-10-27 20:11:29,963 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:11:29,964 INFO Data loaded: (21, 68)
+2025-10-27 20:11:29,982 INFO Showing Team Overview page.
+2025-10-27 20:11:34,282 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:11:34,285 INFO Fetching data from Google Sheets...
+2025-10-27 20:11:34,295 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:11:35,267 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:11:35,268 INFO Data loaded: (21, 68)
+2025-10-27 20:12:58,368 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:12:58,371 INFO Fetching data from Google Sheets...
+2025-10-27 20:12:58,379 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:12:59,418 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:12:59,419 INFO Data loaded: (21, 68)
+2025-10-27 20:12:59,436 INFO Showing Team Overview page.
+2025-10-27 20:13:05,122 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:13:05,123 INFO Fetching data from Google Sheets...
+2025-10-27 20:13:05,131 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:13:06,052 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:13:06,053 INFO Data loaded: (21, 68)
+2025-10-27 20:13:06,067 INFO Showing Team Overview page.
+2025-10-27 20:13:06,599 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:13:06,600 INFO Fetching data from Google Sheets...
+2025-10-27 20:13:06,606 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:13:07,491 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:13:07,492 INFO Data loaded: (21, 68)
+2025-10-27 20:13:07,506 INFO Showing Team Overview page.
+2025-10-27 20:13:10,681 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:13:10,684 INFO Fetching data from Google Sheets...
+2025-10-27 20:13:10,689 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:13:11,528 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:13:11,528 INFO Data loaded: (21, 68)
+2025-10-27 20:14:52,086 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:14:52,089 INFO Fetching data from Google Sheets...
+2025-10-27 20:14:52,099 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:14:53,114 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:14:53,114 INFO Data loaded: (21, 68)
+2025-10-27 20:14:53,125 INFO Player names for dropdown: ['Staff total:', 'Peterson', 'N. Smith', 'Scamardella', 'Riordan ', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:14:53,130 INFO Showing Team Overview page.
+2025-10-27 20:14:58,942 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:14:58,945 INFO Fetching data from Google Sheets...
+2025-10-27 20:14:58,951 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:14:59,773 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:14:59,775 INFO Fetching data from Google Sheets...
+2025-10-27 20:14:59,786 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:14:59,921 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:14:59,940 INFO Data loaded: (21, 68)
+2025-10-27 20:15:00,957 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:15:00,958 INFO Data loaded: (21, 68)
+2025-10-27 20:15:00,969 INFO Player names for dropdown: ['Staff total:', 'Peterson', 'N. Smith', 'Scamardella', 'Riordan ', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:15:00,974 INFO Showing Team Overview page.
+2025-10-27 20:15:04,269 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:15:04,270 INFO Fetching data from Google Sheets...
+2025-10-27 20:15:04,278 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:15:03,997 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:15:03,997 INFO Data loaded: (21, 68)
+2025-10-27 20:15:04,008 INFO Player names for dropdown: ['Staff total:', 'Peterson', 'N. Smith', 'Scamardella', 'Riordan ', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:16:56,022 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:16:56,023 INFO Fetching data from Google Sheets...
+2025-10-27 20:16:56,034 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:16:56,991 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:16:56,991 INFO Data loaded: (21, 68)
+2025-10-27 20:16:57,003 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan ', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:16:57,007 INFO Showing Team Overview page.
+2025-10-27 20:17:15,542 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:17:15,545 INFO Fetching data from Google Sheets...
+2025-10-27 20:17:15,551 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:17:16,696 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:17:16,697 INFO Data loaded: (21, 68)
+2025-10-27 20:17:16,707 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan ', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:17:16,711 INFO Showing Team Overview page.
+2025-10-27 20:17:26,711 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:17:26,712 INFO Fetching data from Google Sheets...
+2025-10-27 20:17:26,722 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:17:27,675 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:17:27,676 INFO Data loaded: (21, 68)
+2025-10-27 20:17:27,688 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan ', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:17:27,692 INFO Showing Team Overview page.
+2025-10-27 20:17:32,865 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:17:32,868 INFO Fetching data from Google Sheets...
+2025-10-27 20:17:32,875 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:17:33,822 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:17:33,822 INFO Data loaded: (21, 68)
+2025-10-27 20:17:33,832 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan ', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:21:41,681 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:21:41,682 INFO Fetching data from Google Sheets...
+2025-10-27 20:21:41,691 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:21:42,821 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:21:42,821 INFO Data loaded: (21, 68)
+2025-10-27 20:21:42,833 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:21:42,836 INFO Showing Team Overview page.
+2025-10-27 20:21:47,135 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:21:47,136 INFO Fetching data from Google Sheets...
+2025-10-27 20:21:47,139 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:21:48,017 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:21:48,018 INFO Data loaded: (21, 68)
+2025-10-27 20:21:48,027 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:21:48,050 INFO Showing Team Overview page.
+2025-10-27 20:21:51,068 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:21:51,069 INFO Fetching data from Google Sheets...
+2025-10-27 20:21:51,075 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:21:51,963 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:21:51,964 INFO Data loaded: (21, 68)
+2025-10-27 20:21:51,974 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:22:50,709 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:22:50,710 INFO Fetching data from Google Sheets...
+2025-10-27 20:22:50,721 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:22:51,868 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:22:51,869 INFO Data loaded: (21, 68)
+2025-10-27 20:22:51,880 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:22:51,885 INFO Showing Team Overview page.
+2025-10-27 20:22:55,141 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:22:55,144 INFO Fetching data from Google Sheets...
+2025-10-27 20:22:55,153 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:22:56,145 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:22:56,146 INFO Data loaded: (21, 68)
+2025-10-27 20:22:56,157 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:22:56,162 INFO Showing Team Overview page.
+2025-10-27 20:23:02,843 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:23:02,843 INFO Fetching data from Google Sheets...
+2025-10-27 20:23:02,850 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:23:03,774 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:23:03,774 INFO Data loaded: (21, 68)
+2025-10-27 20:23:03,786 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:23:03,789 INFO Normalized query param: p
+2025-10-27 20:23:03,791 INFO Normalized player names: ['staff total:', 'peterson', 'n. smith', 'scamardella', 'riordan', 'sybirski', 'jones', 'mihalinac', 'anzaldi', 'kim', 'willitts', 'falco', 'c. kidd', 'opat', 'rippo', 'nascimento', 'washington', 'estes', 'werse', 'catalano', '']
+2025-10-27 20:27:35,425 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:27:35,426 INFO Fetching data from Google Sheets...
+2025-10-27 20:27:35,440 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:27:36,677 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:27:36,678 INFO Data loaded: (21, 68)
+2025-10-27 20:27:36,689 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:27:36,693 INFO Showing Team Overview page.
+2025-10-27 20:27:40,276 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:27:40,278 INFO Fetching data from Google Sheets...
+2025-10-27 20:27:40,285 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:27:41,298 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:27:41,299 INFO Data loaded: (21, 68)
+2025-10-27 20:27:41,311 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:27:41,340 INFO Go clicked: selected_player_name='Peterson'
+2025-10-27 20:27:41,342 INFO Showing Team Overview page.
+2025-10-27 20:27:45,480 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:27:45,482 INFO Fetching data from Google Sheets...
+2025-10-27 20:27:45,491 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:27:44,487 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:27:44,487 INFO Data loaded: (21, 68)
+2025-10-27 20:27:44,498 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:27:44,503 INFO Showing Team Overview page.
+2025-10-27 20:27:46,300 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:27:46,302 INFO Fetching data from Google Sheets...
+2025-10-27 20:27:46,312 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:27:47,142 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:27:47,143 INFO Data loaded: (21, 68)
+2025-10-27 20:27:47,153 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:27:47,157 INFO Go clicked: selected_player_name='Jones'
+2025-10-27 20:27:47,158 INFO Showing Team Overview page.
+2025-10-27 20:27:49,899 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:27:49,901 INFO Fetching data from Google Sheets...
+2025-10-27 20:27:49,909 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:27:50,787 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:27:50,787 INFO Data loaded: (21, 68)
+2025-10-27 20:27:50,797 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:27:50,802 INFO Normalized query param: j
+2025-10-27 20:27:50,803 INFO Normalized player names: ['staff total:', 'peterson', 'n. smith', 'scamardella', 'riordan', 'sybirski', 'jones', 'mihalinac', 'anzaldi', 'kim', 'willitts', 'falco', 'c. kidd', 'opat', 'rippo', 'nascimento', 'washington', 'estes', 'werse', 'catalano', '']
+2025-10-27 20:29:54,993 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:29:54,993 INFO Fetching data from Google Sheets...
+2025-10-27 20:29:55,008 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:29:56,199 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:29:56,199 INFO Data loaded: (21, 68)
+2025-10-27 20:29:56,210 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:29:56,214 INFO Showing Team Overview page.
+2025-10-27 20:30:02,709 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:30:02,711 INFO Fetching data from Google Sheets...
+2025-10-27 20:30:02,717 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:30:03,591 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:30:03,591 INFO Data loaded: (21, 68)
+2025-10-27 20:30:03,602 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:30:03,630 INFO Showing Team Overview page.
+2025-10-27 20:30:04,906 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:30:04,908 INFO Fetching data from Google Sheets...
+2025-10-27 20:30:04,913 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:30:05,819 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:30:05,819 INFO Data loaded: (21, 68)
+2025-10-27 20:30:05,830 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:30:05,834 INFO Go clicked: selected_player_name='Jones'
+2025-10-27 20:30:05,835 INFO Showing Team Overview page.
+2025-10-27 20:30:07,496 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:30:07,498 INFO Fetching data from Google Sheets...
+2025-10-27 20:30:07,505 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:30:08,450 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:30:08,450 INFO Data loaded: (21, 68)
+2025-10-27 20:30:08,460 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:30:08,464 INFO Normalized query param: j
+2025-10-27 20:30:08,467 INFO Normalized player names: ['staff total:', 'peterson', 'n. smith', 'scamardella', 'riordan', 'sybirski', 'jones', 'mihalinac', 'anzaldi', 'kim', 'willitts', 'falco', 'c. kidd', 'opat', 'rippo', 'nascimento', 'washington', 'estes', 'werse', 'catalano', '']
+2025-10-27 20:31:32,393 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:31:32,396 INFO Fetching data from Google Sheets...
+2025-10-27 20:31:32,401 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:31:33,928 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:31:33,928 INFO Data loaded: (21, 68)
+2025-10-27 20:31:33,939 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:31:33,943 INFO Showing Team Overview page.
+2025-10-27 20:31:37,535 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:31:37,536 INFO Fetching data from Google Sheets...
+2025-10-27 20:31:37,548 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:31:38,374 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:31:38,377 INFO Fetching data from Google Sheets...
+2025-10-27 20:31:38,382 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:31:38,476 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:31:38,494 INFO Data loaded: (21, 68)
+2025-10-27 20:31:39,423 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:31:39,423 INFO Data loaded: (21, 68)
+2025-10-27 20:31:39,434 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:31:39,438 INFO Go clicked: selected_player_name='Jones'
+2025-10-27 20:31:39,441 INFO Showing Team Overview page.
+2025-10-27 20:31:42,867 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:31:42,869 INFO Fetching data from Google Sheets...
+2025-10-27 20:31:42,880 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:31:43,945 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:31:43,946 INFO Data loaded: (21, 68)
+2025-10-27 20:31:43,957 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:31:43,961 INFO Normalized query param: j
+2025-10-27 20:31:43,961 INFO Normalized player names: ['staff total:', 'peterson', 'n. smith', 'scamardella', 'riordan', 'sybirski', 'jones', 'mihalinac', 'anzaldi', 'kim', 'willitts', 'falco', 'c. kidd', 'opat', 'rippo', 'nascimento', 'washington', 'estes', 'werse', 'catalano', '']
+2025-10-27 20:32:57,480 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:32:57,483 INFO Fetching data from Google Sheets...
+2025-10-27 20:32:57,492 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:32:58,572 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:32:58,573 INFO Data loaded: (21, 68)
+2025-10-27 20:32:58,584 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:32:58,588 INFO Showing Team Overview page.
+2025-10-27 20:33:02,934 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:33:02,937 INFO Fetching data from Google Sheets...
+2025-10-27 20:33:02,944 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:33:03,919 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:33:03,919 INFO Fetching data from Google Sheets...
+2025-10-27 20:33:03,927 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:33:04,005 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:33:04,021 INFO Data loaded: (21, 68)
+2025-10-27 20:33:04,967 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:33:04,967 INFO Data loaded: (21, 68)
+2025-10-27 20:33:04,978 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:33:04,981 INFO Go clicked: selected_player_name='Jones'
+2025-10-27 20:33:04,984 INFO Showing Team Overview page.
+2025-10-27 20:33:09,628 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:33:09,629 INFO Fetching data from Google Sheets...
+2025-10-27 20:33:09,635 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:33:10,502 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:33:10,503 INFO Data loaded: (21, 68)
+2025-10-27 20:33:10,514 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:33:10,517 INFO Raw query param: J
+2025-10-27 20:33:10,519 INFO Normalized query param: j
+2025-10-27 20:33:10,520 INFO Raw player names: ['Staff total:', 'Peterson', 'N. Smith', 'Scamardella', 'Riordan ', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano', '']
+2025-10-27 20:33:10,521 INFO Normalized player names: ['staff total:', 'peterson', 'n. smith', 'scamardella', 'riordan', 'sybirski', 'jones', 'mihalinac', 'anzaldi', 'kim', 'willitts', 'falco', 'c. kidd', 'opat', 'rippo', 'nascimento', 'washington', 'estes', 'werse', 'catalano', '']
+2025-10-27 20:34:15,877 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:34:15,878 INFO Fetching data from Google Sheets...
+2025-10-27 20:34:15,886 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:34:16,876 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:34:16,877 INFO Data loaded: (21, 68)
+2025-10-27 20:34:16,890 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:34:16,893 INFO Showing Team Overview page.
+2025-10-27 20:34:18,458 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:34:18,460 INFO Fetching data from Google Sheets...
+2025-10-27 20:34:18,469 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:34:19,410 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:34:19,410 INFO Data loaded: (21, 68)
+2025-10-27 20:34:19,422 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:34:19,425 INFO Showing Team Overview page.
+2025-10-27 20:34:21,397 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:34:21,398 INFO Fetching data from Google Sheets...
+2025-10-27 20:34:21,404 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:34:22,256 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:34:22,256 INFO Data loaded: (21, 68)
+2025-10-27 20:34:22,267 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:34:22,272 INFO Go clicked: selected_player_name='Jones'
+2025-10-27 20:34:22,273 INFO Showing Team Overview page.
+2025-10-27 20:34:42,233 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:34:42,235 INFO Fetching data from Google Sheets...
+2025-10-27 20:34:42,242 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:34:43,161 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:34:43,162 INFO Data loaded: (21, 68)
+2025-10-27 20:34:43,173 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:34:43,200 INFO Go clicked: selected_player_name='Jones'
+2025-10-27 20:34:43,201 INFO Showing Team Overview page.
+2025-10-27 20:34:47,208 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:34:47,210 INFO Fetching data from Google Sheets...
+2025-10-27 20:34:47,220 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:34:48,155 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:34:48,156 INFO Data loaded: (21, 68)
+2025-10-27 20:34:48,166 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:34:48,170 INFO Go clicked: selected_player_name='Jones'
+2025-10-27 20:34:48,172 INFO Showing Team Overview page.
+2025-10-27 20:35:57,825 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:35:57,827 INFO Fetching data from Google Sheets...
+2025-10-27 20:35:57,834 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:35:59,327 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:35:59,328 INFO Data loaded: (21, 68)
+2025-10-27 20:35:59,339 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:35:59,343 INFO Showing Team Overview page.
+2025-10-27 20:36:02,730 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:36:02,732 INFO Fetching data from Google Sheets...
+2025-10-27 20:36:02,744 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:36:03,713 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:36:03,713 INFO Data loaded: (21, 68)
+2025-10-27 20:36:03,725 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:36:03,730 INFO Showing Team Overview page.
+2025-10-27 20:36:04,285 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:36:04,288 INFO Fetching data from Google Sheets...
+2025-10-27 20:36:04,294 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:36:05,220 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:36:05,220 INFO Data loaded: (21, 68)
+2025-10-27 20:36:05,231 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:36:05,234 INFO Go clicked: selected_player_name='Jones'
+2025-10-27 20:36:05,237 INFO Showing Team Overview page.
+2025-10-27 20:36:08,366 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:36:08,369 INFO Fetching data from Google Sheets...
+2025-10-27 20:36:08,377 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:36:09,428 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:36:09,428 INFO Data loaded: (21, 68)
+2025-10-27 20:36:09,440 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:36:09,444 INFO Raw query param: J
+2025-10-27 20:36:09,446 INFO Normalized query param: j
+2025-10-27 20:36:09,448 INFO Raw player names: ['Staff total:', 'Peterson', 'N. Smith', 'Scamardella', 'Riordan ', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano', '']
+2025-10-27 20:36:09,450 INFO Normalized player names: ['staff total:', 'peterson', 'n. smith', 'scamardella', 'riordan', 'sybirski', 'jones', 'mihalinac', 'anzaldi', 'kim', 'willitts', 'falco', 'c. kidd', 'opat', 'rippo', 'nascimento', 'washington', 'estes', 'werse', 'catalano', '']
