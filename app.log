@@ -674,3 +674,150 @@ In conclusion, while Jones can get outs and has a solid ERA of 3.38, his control
 2025-10-27 20:36:09,446 INFO Normalized query param: j
 2025-10-27 20:36:09,448 INFO Raw player names: ['Staff total:', 'Peterson', 'N. Smith', 'Scamardella', 'Riordan ', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano', '']
 2025-10-27 20:36:09,450 INFO Normalized player names: ['staff total:', 'peterson', 'n. smith', 'scamardella', 'riordan', 'sybirski', 'jones', 'mihalinac', 'anzaldi', 'kim', 'willitts', 'falco', 'c. kidd', 'opat', 'rippo', 'nascimento', 'washington', 'estes', 'werse', 'catalano', '']
+2025-10-27 20:49:18,246 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:49:18,248 INFO Fetching data from Google Sheets...
+2025-10-27 20:49:18,262 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:49:20,952 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:49:20,953 INFO Data loaded: (21, 68)
+2025-10-27 20:49:20,966 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:49:20,994 INFO Showing Team Overview page.
+2025-10-27 20:49:26,488 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:49:26,489 INFO Fetching data from Google Sheets...
+2025-10-27 20:49:26,499 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:49:27,481 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:49:27,481 INFO Data loaded: (21, 68)
+2025-10-27 20:49:27,492 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:49:27,497 INFO Showing Team Overview page.
+2025-10-27 20:49:34,505 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:49:34,507 INFO Fetching data from Google Sheets...
+2025-10-27 20:49:34,514 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:49:35,426 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:49:35,427 INFO Data loaded: (21, 68)
+2025-10-27 20:49:35,440 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:49:35,443 INFO Go clicked: selected_player_name='Jones'
+2025-10-27 20:49:35,445 INFO Showing Team Overview page.
+2025-10-27 20:49:39,987 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:49:39,988 INFO Fetching data from Google Sheets...
+2025-10-27 20:49:39,997 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:49:40,818 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:49:40,819 INFO Data loaded: (21, 68)
+2025-10-27 20:49:40,836 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:49:40,841 INFO Raw query param: J
+2025-10-27 20:49:40,843 INFO Normalized query param: j
+2025-10-27 20:49:40,844 INFO Raw player names: ['Staff total:', 'Peterson', 'N. Smith', 'Scamardella', 'Riordan ', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano', '']
+2025-10-27 20:49:40,845 INFO Normalized player names: ['staff total:', 'peterson', 'n. smith', 'scamardella', 'riordan', 'sybirski', 'jones', 'mihalinac', 'anzaldi', 'kim', 'willitts', 'falco', 'c. kidd', 'opat', 'rippo', 'nascimento', 'washington', 'estes', 'werse', 'catalano', '']
+2025-10-27 20:53:37,346 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:53:37,348 INFO Fetching data from Google Sheets...
+2025-10-27 20:53:37,361 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:53:38,792 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:53:38,792 INFO Data loaded: (21, 68)
+2025-10-27 20:53:38,804 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:53:38,815 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 20:56:28,733 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:56:28,734 INFO Fetching data from Google Sheets...
+2025-10-27 20:56:28,741 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:56:29,854 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:56:29,855 INFO Data loaded: (21, 68)
+2025-10-27 20:56:57,998 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:56:57,998 INFO Fetching data from Google Sheets...
+2025-10-27 20:56:58,013 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:56:59,104 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:56:59,104 INFO Data loaded: (21, 68)
+2025-10-27 20:59:12,704 INFO Loading baseball stats from Google Sheets...
+2025-10-27 20:59:12,706 INFO Fetching data from Google Sheets...
+2025-10-27 20:59:12,716 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 20:59:13,621 INFO DataFrame created with shape: (21, 68)
+2025-10-27 20:59:13,622 INFO Data loaded: (21, 68)
+2025-10-27 21:04:25,991 INFO Loading baseball stats from Google Sheets...
+2025-10-27 21:04:25,994 INFO Fetching data from Google Sheets...
+2025-10-27 21:04:26,019 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 21:04:28,229 INFO DataFrame created with shape: (21, 68)
+2025-10-27 21:04:28,231 INFO Data loaded: (21, 68)
+2025-10-27 21:04:28,256 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 21:04:28,289 INFO Showing Team Overview page.
+2025-10-27 21:04:34,976 INFO Loading baseball stats from Google Sheets...
+2025-10-27 21:04:34,978 INFO Fetching data from Google Sheets...
+2025-10-27 21:04:34,984 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 21:04:35,892 INFO DataFrame created with shape: (21, 68)
+2025-10-27 21:04:35,893 INFO Data loaded: (21, 68)
+2025-10-27 21:04:35,904 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 21:04:35,910 INFO Showing Team Overview page.
+2025-10-27 21:04:36,072 INFO Loading baseball stats from Google Sheets...
+2025-10-27 21:04:36,074 INFO Fetching data from Google Sheets...
+2025-10-27 21:04:36,217 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 21:04:37,142 INFO DataFrame created with shape: (21, 68)
+2025-10-27 21:04:37,143 INFO Data loaded: (21, 68)
+2025-10-27 21:04:37,156 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 21:04:37,184 INFO Go clicked: selected_player_name='Jones'
+2025-10-27 21:04:37,315 INFO Loading baseball stats from Google Sheets...
+2025-10-27 21:04:37,318 INFO Fetching data from Google Sheets...
+2025-10-27 21:04:37,328 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 21:04:38,245 INFO DataFrame created with shape: (21, 68)
+2025-10-27 21:04:38,245 INFO Data loaded: (21, 68)
+2025-10-27 21:04:38,256 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 21:04:38,259 INFO Showing player page for Jones.
+2025-10-27 21:04:38,260 INFO Showing player page for Jones. Stats: {'Column_B': 'Jones', 'Column_C': 'FB', 'Column_D': 'SL', 'Column_E': 'CH', 'Column_F': 'CB', 'Column_G': 'CT', 'Velo': '83.8', 'S%': '58.6%', 'FB S%': '60.0%', 'OS S%': '57.1%', 'FB CSW': '26.0%', 'OS CSW': '28.6%', 'SL CSW': '34.4%', 'CH/SPL CSW': '18.9%', 'CB CSW': '0.0%', 'CT CSW': '0.0%', 'FB%': '50.5%', 'Out%': '64.3%', 'Out% RHB': '66.7%', 'RHB PA': '51', 'Out% LHB': '40.0%', 'LHB PA': '5', 'WHIP': '1.5', 'Bases/IP': '1.7', 'FWHIP': '1.5', 'FPS%': '55.4%', 'IP': '13.3', 'ER': '5', 'ERA': '3.38', 'PA': '56', 'AB': '49', 'H': '13', 'XBH': '3', 'BB': '7', 'HBP': '0', 'K': '10', 'PC': '198', 'K%': '17.9%', 'BB%': '12.5%', 'FRB%': '12.5%', 'BAA': '0.265', 'BACON': '0.333', 'ZONE%': '50.5%', 'Swing%': '46.0%', 'Plus%': '52.5%', 'TPLUS%': '48.99%', 'Whiff%': '31.87%', 'max': '86.0', 'K-BB%': '5.4%', 'p/pa': '3.5', 'p/out': '5.0', 'PV1': '84.0', 'PV2': '83.7', 'PV3': '0.0', 'BAAFB': '0.280', 'BAAOS': '0.250', 'Baa dif': '0.030', 'bb/9': '4.7', 'h/9': '8.8', 'k/9': '6.8', 'xbh/h': '23.1%', '2/3': '', 'Early%': '42.86%', 'Ahead%': '30.36%', 'E+A%': '73.2%', 'BB%_1': '12.5%', 'K:BB': '1.43', 'K:F$': '1.43'}
+2025-10-27 21:04:38,288 INFO Calling OpenAI model gpt-4 for player summary. Stats: {'Column_B': 'Jones', 'Column_C': 'FB', 'Column_D': 'SL', 'Column_E': 'CH', 'Column_F': 'CB', 'Column_G': 'CT', 'Velo': '83.8', 'S%': '58.6%', 'FB S%': '60.0%', 'OS S%': '57.1%', 'FB CSW': '26.0%', 'OS CSW': '28.6%', 'SL CSW': '34.4%', 'CH/SPL CSW': '18.9%', 'CB CSW': '0.0%', 'CT CSW': '0.0%', 'FB%': '50.5%', 'Out%': '64.3%', 'Out% RHB': '66.7%', 'RHB PA': '51', 'Out% LHB': '40.0%', 'LHB PA': '5', 'WHIP': '1.5', 'Bases/IP': '1.7', 'FWHIP': '1.5', 'FPS%': '55.4%', 'IP': '13.3', 'ER': '5', 'ERA': '3.38', 'PA': '56', 'AB': '49', 'H': '13', 'XBH': '3', 'BB': '7', 'HBP': '0', 'K': '10', 'PC': '198', 'K%': '17.9%', 'BB%': '12.5%', 'FRB%': '12.5%', 'BAA': '0.265', 'BACON': '0.333', 'ZONE%': '50.5%', 'Swing%': '46.0%', 'Plus%': '52.5%', 'TPLUS%': '48.99%', 'Whiff%': '31.87%', 'max': '86.0', 'K-BB%': '5.4%', 'p/pa': '3.5', 'p/out': '5.0', 'PV1': '84.0', 'PV2': '83.7', 'PV3': '0.0', 'BAAFB': '0.280', 'BAAOS': '0.250', 'Baa dif': '0.030', 'bb/9': '4.7', 'h/9': '8.8', 'k/9': '6.8', 'xbh/h': '23.1%', '2/3': '', 'Early%': '42.86%', 'Ahead%': '30.36%', 'E+A%': '73.2%', 'BB%_1': '12.5%', 'K:BB': '1.43', 'K:F$': '1.43'}
+2025-10-27 21:04:57,840 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:04:57,859 INFO AI summary generated: Player Jones is exhibiting a fairly rounded performance with room for improvement in certain areas. He has an average velocity of 83.8, indicating decent speed on his pitches. His strike percentage (S%) stands at 58.6%, demonstrating that more than half of his throws are landing in the strike zone; this is a good sign. Jones also has a commendable out rate against right-handed batters (Out% RHB) at 66.7% compared to a lower rate of 40.0% against left-handed batters (Out% LHB). This suggests he needs to improve his pitches against LHB.
+
+His 'walks plus hits per inning pitched' (WHIP) is a bit high at 1.5. Generally, a WHIP below 1.2 is considered good, so this is a part of Jones' game that requires some attention. He also has a high bases per innings pitched (Bases/IP) of 1.7, showing that he tends to put too many runners on base – something he needs to work on. 
+
+Other areas needing, improvement include his walk rate (BB%) of 12.5%, indicating he needs to reduce the walks given to batters, and a relatively low strikeout rate (K%) of 17.9%. Improving control will help address these aspects and enhance his overall performance. 
+
+Jones' earned run average (ERA) is 3.38, which isn't bad but there's still room for enhancement. Despite that, he seems to have an effective slider (SL CSW of 34.4%) and is limiting extra-base hits (xBH) to 23.1% of all hits allowed. 
+
+In summary, Jones is showing consistent efforts yet needs to focus on improving his control to reduce the number of walks and hits per inning, and effectiveness against left-handed batters. Apart from that, his slider seems to be quite effective and he seems to have good speed on his pitches. With focused efforts, there's potential for Jones to boost his performance stats significantly.
+2025-10-27 21:05:03,512 INFO Loading baseball stats from Google Sheets...
+2025-10-27 21:05:03,513 INFO Fetching data from Google Sheets...
+2025-10-27 21:05:03,520 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 21:05:04,446 INFO DataFrame created with shape: (21, 68)
+2025-10-27 21:05:04,447 INFO Data loaded: (21, 68)
+2025-10-27 21:05:04,458 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 21:05:04,631 INFO Loading baseball stats from Google Sheets...
+2025-10-27 21:05:04,633 INFO Fetching data from Google Sheets...
+2025-10-27 21:05:04,641 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 21:05:05,609 INFO DataFrame created with shape: (21, 68)
+2025-10-27 21:05:05,611 INFO Data loaded: (21, 68)
+2025-10-27 21:05:05,622 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 21:05:05,626 INFO Showing Team Overview page.
+2025-10-27 21:05:10,475 INFO Loading baseball stats from Google Sheets...
+2025-10-27 21:05:10,477 INFO Fetching data from Google Sheets...
+2025-10-27 21:05:10,485 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 21:05:11,408 INFO DataFrame created with shape: (21, 68)
+2025-10-27 21:05:11,409 INFO Data loaded: (21, 68)
+2025-10-27 21:05:11,423 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 21:05:11,427 INFO Showing Team Overview page.
+2025-10-27 21:05:12,827 INFO Loading baseball stats from Google Sheets...
+2025-10-27 21:05:12,828 INFO Fetching data from Google Sheets...
+2025-10-27 21:05:12,833 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 21:05:13,489 INFO Loading baseball stats from Google Sheets...
+2025-10-27 21:05:13,492 INFO Fetching data from Google Sheets...
+2025-10-27 21:05:13,501 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 21:05:13,909 INFO DataFrame created with shape: (21, 68)
+2025-10-27 21:05:13,910 INFO Data loaded: (21, 68)
+2025-10-27 21:05:14,557 INFO DataFrame created with shape: (21, 68)
+2025-10-27 21:05:14,557 INFO Data loaded: (21, 68)
+2025-10-27 21:05:14,570 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 21:05:14,573 INFO Go clicked: selected_player_name='Sybirski'
+2025-10-27 21:05:14,748 INFO Loading baseball stats from Google Sheets...
+2025-10-27 21:05:14,750 INFO Fetching data from Google Sheets...
+2025-10-27 21:05:14,757 INFO file_cache is only supported with oauth2client<4.0.0
+2025-10-27 21:05:15,638 INFO DataFrame created with shape: (21, 68)
+2025-10-27 21:05:15,638 INFO Data loaded: (21, 68)
+2025-10-27 21:05:15,650 INFO Player names for dropdown: ['Peterson', 'N. Smith', 'Scamardella', 'Riordan', 'Sybirski', 'Jones', 'Mihalinac', 'Anzaldi', 'Kim', 'Willitts', 'Falco', 'C. Kidd', 'Opat', 'Rippo', 'Nascimento', 'Washington', 'Estes', 'Werse', 'Catalano']
+2025-10-27 21:05:15,676 INFO Showing player page for Sybirski.
+2025-10-27 21:05:15,678 INFO Showing player page for Sybirski. Stats: {'Column_B': 'Sybirski', 'Column_C': 'FB', 'Column_D': 'SL', 'Column_E': 'CH', 'Column_F': 'CB', 'Column_G': 'CT', 'Velo': '84.8', 'S%': '63.0%', 'FB S%': '65.9%', 'OS S%': '56.8%', 'FB CSW': '22.0%', 'OS CSW': '25.0%', 'SL CSW': '0.0%', 'CH/SPL CSW': '25.0%', 'CB CSW': '25.0%', 'CT CSW': '0.0%', 'FB%': '67.4%', 'Out%': '67.5%', 'Out% RHB': '74.3%', 'RHB PA': '35', 'Out% LHB': '20.0%', 'LHB PA': '5', 'WHIP': '1.2', 'Bases/IP': '1.4', 'FWHIP': '1.2', 'FPS%': '65.0%', 'IP': '9.3', 'ER': '3', 'ERA': '2.89', 'PA': '40', 'AB': '34', 'H': '7', 'XBH': '2', 'BB': '4', 'HBP': '0', 'K': '8', 'PC': '135', 'K%': '20.0%', 'BB%': '10.0%', 'FRB%': '10.0%', 'BAA': '0.206', 'BACON': '0.269', 'ZONE%': '58.5%', 'Swing%': '46.7%', 'Plus%': '56.3%', 'TPLUS%': '51.11%', 'Whiff%': '14.29%', 'max': '87.0', 'K-BB%': '10.0%', 'p/pa': '3.4', 'p/out': '4.8', 'PV1': '84.8', 'PV2': '84.8', 'PV3': '0.0', 'BAAFB': '0.167', 'BAAOS': '0.300', 'Baa dif': '-0.133', 'bb/9': '3.9', 'h/9': '6.8', 'k/9': '7.7', 'xbh/h': '28.6%', '2/3': '', 'Early%': '47.50%', 'Ahead%': '30.00%', 'E+A%': '77.5%', 'BB%_1': '10.0%', 'K:BB': '2.00', 'K:F$': '2.00'}
+2025-10-27 21:05:15,694 INFO Calling OpenAI model gpt-4 for player summary. Stats: {'Column_B': 'Sybirski', 'Column_C': 'FB', 'Column_D': 'SL', 'Column_E': 'CH', 'Column_F': 'CB', 'Column_G': 'CT', 'Velo': '84.8', 'S%': '63.0%', 'FB S%': '65.9%', 'OS S%': '56.8%', 'FB CSW': '22.0%', 'OS CSW': '25.0%', 'SL CSW': '0.0%', 'CH/SPL CSW': '25.0%', 'CB CSW': '25.0%', 'CT CSW': '0.0%', 'FB%': '67.4%', 'Out%': '67.5%', 'Out% RHB': '74.3%', 'RHB PA': '35', 'Out% LHB': '20.0%', 'LHB PA': '5', 'WHIP': '1.2', 'Bases/IP': '1.4', 'FWHIP': '1.2', 'FPS%': '65.0%', 'IP': '9.3', 'ER': '3', 'ERA': '2.89', 'PA': '40', 'AB': '34', 'H': '7', 'XBH': '2', 'BB': '4', 'HBP': '0', 'K': '8', 'PC': '135', 'K%': '20.0%', 'BB%': '10.0%', 'FRB%': '10.0%', 'BAA': '0.206', 'BACON': '0.269', 'ZONE%': '58.5%', 'Swing%': '46.7%', 'Plus%': '56.3%', 'TPLUS%': '51.11%', 'Whiff%': '14.29%', 'max': '87.0', 'K-BB%': '10.0%', 'p/pa': '3.4', 'p/out': '4.8', 'PV1': '84.8', 'PV2': '84.8', 'PV3': '0.0', 'BAAFB': '0.167', 'BAAOS': '0.300', 'Baa dif': '-0.133', 'bb/9': '3.9', 'h/9': '6.8', 'k/9': '7.7', 'xbh/h': '28.6%', '2/3': '', 'Early%': '47.50%', 'Ahead%': '30.00%', 'E+A%': '77.5%', 'BB%_1': '10.0%', 'K:BB': '2.00', 'K:F$': '2.00'}
+2025-10-27 21:05:35,416 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:05:35,430 INFO AI summary generated: Player Sybirski has shown some notable strengths and areas for improvement based on the provided statistics. 
+
+On the positive side, the player displays a decent velocity averaging 84.8 mph. He has had a solid strike rate overall (63.0%), especially with his fastball (65.9%). Additionally, his strikeout rate is at a decent 20.0%, and he has an impressive First Pitch Strike percentage (FPS%) of 65.0%, demonstrating good command over the strike zone (ZONE% at 58.5%). 
+
+Sybirski's ERA of 2.89 highlights good performance in limiting runs. The opponent batting average (BAA) is at a fairly low 0.206, indicating that he is limiting hits. His K:BB ratio of 2.0 implies a healthy balance between strikeouts and walks. His whip is 1.2, which is an acceptable rate, and his rate of bases per innings pitched is relatively low at 1.4.
+
+However, improvement areas are visible in some aspects of Sybirski's performance. His CSW (called strikes plus whiffs) with the slider (SL CSW) and cutter (CT CSW) are at 0.0%, suggesting a lack of effective execution or utilization of these pitches. Additionally, his Out% against left-handed batters (Out% LHB) is significantly low at 20.0%, despite having a high Out% against right-handed batters (Out% RHB) at 74.3%. This points to difficulties pitching against left-handed batters, of whom he has faced only 5. Addressing this discrepancy could greatly enhance his performance.
+
+Further, the player's walk rate of 10.0% indicates room for improvement in control, while his hits per 9 innings (6.8) and walks per 9 innings (3.9) could also be reduced. The ratio of extra-base hits per hits (xbh/h) is moderately high at 28.6%, suggesting a need to limit powerful hits. 
+
+Lastly, while his average pitch count per out (p/out) at 4.8 is within acceptable limits, lower values would indicate a more efficient performance.
